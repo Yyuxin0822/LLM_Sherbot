@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherbot</title>
+    <link
+        rel="shortcut icon"
+        href="./statics/dog.png"
+    />
+    <link rel="stylesheet" href="./statics/css/style.css" />
+</head>
+
+<body>
+  <form action="/" method="post">
+    <input type="text" name="animal" placeholder="Enter an image description" required />
+    <input type="submit" value="Generate flow" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
