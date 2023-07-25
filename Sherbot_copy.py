@@ -12,6 +12,10 @@ os.environ["OPENAI_API_KEY"] = "sk-PubGwD8IqbbWaADljoGET3BlbkFJ4vfCzsBbkVIV8xMXR
 # ##"Input"
 # ##"Output"
 
+
+# %%
+# ### Step 1 - User: Type Environment Description
+# We'll also need our image_description post:
 envir_description =""
 
 
@@ -216,13 +220,24 @@ inputoutput_chain = SequentialChain(
 # We can now run the chain with our randomized sentiment, and the social post!
 inputoutput_chain.run({"envir_description": envir_description})
 
+# %% [markdown]
+# ### Step 5 - Generate Environment Image
 
-# ### 
+# %%
+import openai
+
+response = openai.Image.create(
+  prompt=f"{envir_description}",
+  n=1,
+  size="1024x1024"
+)
+image_url = response['data'][0]['url']
 
 
 # %%
 description= {f"Environment_description: {envir_description}"} 
 
+print(f"Environment_description:{image_url}")
 
 print(f'Input:/n')
 print(f'Ecosystem: {finalizedinput["Ecosystem"]}/n')
