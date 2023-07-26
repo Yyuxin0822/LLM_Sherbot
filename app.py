@@ -1,26 +1,34 @@
-from Sherbot_test import getcanvas
+from Sherbot_test import getcanvas,getinput,getoutput
 from flask import Flask, render_template, redirect, url_for, request
 from form import EnvDescriptionForm
 
-print (Sherbot_test.getcanvas("env"))
+
 app=Flask(__name__)
 app.config["SECRET_KEY"] = "mysecret"
 
+canvas={0:""}
+envD={0:""}
+inputD={0:""}
+outputD={0:""}
+
 
 @app.route('/', methods=['GET','POST'])
-def index():
+def index(id=0):
     env_form = EnvDescriptionForm(csrf_enabled=False)
     if env_form.validate_on_submit():
         env=env_form.env_description.data
-        #input=Sherbot.getinput(env)
-        #output=Sherbot.getoutput(env)
-        canvas=Sherbot_test.getcanvas(env)
-    return render_template("index.html",canvas=canvas)
-
-
+        id=len(canvas)
+        envD[id]=env
+        inputD[id]=getinput(env)
+        outputD[id]=getoutput(env)
+        canvas[id]=getcanvas(env)
+        return redirect(url_for('index',id=id))
+    id=len(canvas)-1
+    return render_template("index.html",env=envD[id],input=inputD[id],output=outputD[id],canvas=canvas[id],temp_form=env_form)
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(debug=True)
+    #app.run(host='0.0.0.0', port=5000, debug=True)
 
 
 

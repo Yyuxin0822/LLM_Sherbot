@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sherbot</title>
-    <link rel="stylesheet" href="../statics/style.css" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherbot</title>
+  <link rel="stylesheet" href="Sherbot/App/statics/main.css" />
+
 </head>
 
+<style type="text/css">
+body{
+  margin: 50px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto", Helvetica, Arial, sans-serif
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+
 <body>
-  <form action="/" method="post">
-    <input type="text" name="image" placeholder="Enter an image description" required />
-    <input type="submit" value="Generate flow" />
+
+  <form method="POST">
+    <div class=form>
+    {{ temp_form.hidden_tag() }}
+    <p>{{ temp_form.env_description() }}</p>
+    <p>{{ temp_form.submit() }}</p>
+  </div>
   </form>
 
-  {% if result %}
-  <h3>{{image_description}}</h3>
+
+  {% if canvas %}
+  <h2>{{env}}</h2>
 
   <div class="row">
-    <div class="column left" style="background-color:#aaa;">
-      <h3>Input</h3>
-      <p>{{input}}</p>
-    </div>
-    <div class="column middle" style="background-color:#bbb;">
-      <img src={{canvas}} alt="">
-    </div>
-    <div class="column right" style="background-color:#ccc;">
-      <h3>Output</h3>
-      <p>{{output}}</p>
-    </div>
+      <div class="column left"  style="background-color:#aaa;">
+          <h3>Input</h3>
+          <p>{{input}}</p>
+      </div>
+      <div class="column middle" >
+         <img src={{canvas}}  alt="">
+      </div>
+      <div class="column right"  style="background-color:#ccc;">
+          <h3>Output</h3>
+          <p>{{output}}</p>
+      </div>
   </div>
   {% endif %}
 </body>
+
