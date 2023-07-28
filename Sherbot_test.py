@@ -105,3 +105,7 @@ def getoutput(envir_description):
 ######################################################
 ######################################################
 
+if __name__=="__main__":
+    pass
+    #envir_description="This scene depicts an agricultural village in the mountains. There are a couple flood valleys with turbulent water.  To empower this village, there are some windfarms nearby. Cheetahs in the mountains need to be preserved. Food and potable water can be very valuable here."
+    
