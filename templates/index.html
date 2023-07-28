@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sherbot</title>
   <link rel="stylesheet" href="Sherbot/App/statics/main.css" />
-
+  <script src="/Sherbot/App/"></script>
 </head>
 
 <style type="text/css">
@@ -62,14 +62,14 @@ body{
   <div class="row">
       <div class="column left"  style="background-color:#aaa;">
           <h3>Input</h3>
-          <p>{{input}}</p>
+          <p id="input">{{input}}</p>
       </div>
       <div class="column middle" >
          <img src={{canvas}}  alt="">
       </div>
       <div class="column right"  style="background-color:#ccc;">
           <h3>Output</h3>
-          <p>{{output}}</p>
+          <p id="output">{{output}}</p>
       </div>
   </div>
   {% endif %}
