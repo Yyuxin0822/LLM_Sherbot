@@ -1,7 +1,7 @@
-from Sherbot_test import getcanvas,getinput,getoutput
+from Sherbot_v1 import getcanvas,getinput,getoutput,getinputlist,getoutputlist,flowdict,classify,color
 from flask import Flask, render_template, redirect, url_for, request
 from form import EnvDescriptionForm
-
+import json
 
 app=Flask(__name__,static_folder="static", template_folder='templates')
 app.config["SECRET_KEY"] = "mysecret"
@@ -10,7 +10,7 @@ canvas={0:""}
 envD={0:""}
 inputD={0:""}
 outputD={0:""}
-
+colorD={0:""}
 
 @app.route('/', methods=['GET','POST'])
 def index(id=0):
@@ -19,12 +19,16 @@ def index(id=0):
         env=env_form.env_description.data
         id=len(canvas)
         envD[id]=env
-        inputD[id]=getinput(env)
-        outputD[id]=getoutput(env)
+        result=flowdict(getoutput(env))
+        colorD[id]=color(classify(result))
+        #input
+        inputD[id]=getinputlist(result)
+        #output
+        outputD[id]=getoutputlist(result)
         canvas[id]=getcanvas(env)
         return redirect(url_for('index',id=id))
     id=len(canvas)-1
-    return render_template("index.html",env=envD[id],input=inputD[id],output=outputD[id],canvas=canvas[id],temp_form=env_form)
+    return render_template("index.html",env=envD[id],input=inputD[id],output=outputD[id],canvas=canvas[id],color=colorD[id],temp_form=env_form)
 
 if __name__=="__main__":
     app.run(debug=True)
