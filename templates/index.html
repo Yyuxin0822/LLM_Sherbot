@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sherbot</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"  />
-
+  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script>
 </head>
 
 
@@ -24,24 +24,54 @@
   <h2>{{env}}</h2>
 
   <div class="row">
-      <div class="column left"  style="background-color:#aaa;">
-          <h3 id="input">Input</h3>
-          <div>{% for item in input %}
-            <li id={{item}} style="color: {{color[item]}};">{{item}}</li>      
-          {% endfor %}</div>
-      </div>
-      <div class="column middle" >
-         <img src={{canvas}}  alt="">
-      </div>
-      <div class="column right"  style="background-color:#ccc;">
-          <h3 id="output">Output</h3>
-          <div>{% for item in output %}
-            <li id={{item}} style="color: {{color[item]}};">{{item}}</li>
-          {% endfor %}</div>
-      </div>
+    <div class="column left"  style="background-color:#aaa;">
+      <h3 id="input">Input</h3>
+    </div>
+    <div class="column middle" >
+      <img src={{canvas}}  alt="">
+    </div>
+    <div class="column right"  style="background-color:#ccc;">
+      <h3 id="output">Output</h3>
+    </div>
   </div>
-  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script> 
+  {% block javascript %}
+  <script type="text/javascript">
 
+    var color={{color | tojson}}
+    fetch("{{ url_for('static', filename='flow.json') }}")
+      // get the JSON data
+      .then(response => response.json())
+      // use (display) the JSON data
+      .then(data => 
+        {for (var key in data){
+        let inputLI=document.createElement('div');
+        inputLI.id=key;
+        inputLI.innerHTML=key;
+        inputLI.style.color=color[key];
+        document.getElementById('input').appendChild(inputLI);
+
+          for (var i in data[key]){
+            let value=data[key][i]
+          let outputLI=document.createElement('div');
+          outputLI.id=value;
+          outputLI.innerHTML=value;
+          outputLI.style.color=color[value];
+          document.getElementById('output').appendChild(outputLI);
+          new LeaderLine(
+              document.getElementById(key),
+              document.getElementById(data[key][i])
+            );
+          }
+        }
+        }
+      );
+
+
+  </script>
+
+  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script> 
+  {% endblock %}
   {% endif %}
 </body>
+
 

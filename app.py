@@ -8,8 +8,7 @@ app.config["SECRET_KEY"] = "mysecret"
 
 canvas={0:""}
 envD={0:""}
-inputD={0:""}
-outputD={0:""}
+resultD={0:""}
 colorD={0:""}
 
 @app.route('/', methods=['GET','POST'])
@@ -20,15 +19,14 @@ def index(id=0):
         id=len(canvas)
         envD[id]=env
         result=flowdict(getoutput(env))
-        colorD[id]=color(classify(result))
-        #input
-        inputD[id]=getinputlist(result)
-        #output
-        outputD[id]=getoutputlist(result)
+        resultD[id]=result
+        colorD[id]= color(classify(result))
+        #inputD[id]=getinputlist(result)
+        #outputD[id]=getoutputlist(result)
         canvas[id]=getcanvas(env)
         return redirect(url_for('index',id=id))
     id=len(canvas)-1
-    return render_template("index.html",env=envD[id],input=inputD[id],output=outputD[id],canvas=canvas[id],color=colorD[id],temp_form=env_form)
+    return render_template("index.html",env=envD[id],result=resultD[id],canvas=canvas[id],color=colorD[id],temp_form=env_form)
 
 if __name__=="__main__":
     app.run(debug=True)

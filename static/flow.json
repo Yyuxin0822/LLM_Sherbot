@@ -1,0 +1,112 @@
+{
+    "Cheetah": [
+        "ecological balance"
+    ],
+    "Fresh water": [
+        "potable water",
+        " irrigation water"
+    ],
+    "Groundwater": [
+        "streams",
+        " lakes"
+    ],
+    "Biomass": [
+        "biofuel",
+        " biogas"
+    ],
+    "Wild herbs": [
+        "herbal medicine"
+    ],
+    "Flora": [
+        "soil nutrients"
+    ],
+    "Wind energy": [
+        "electricity"
+    ],
+    "Solar energy": [
+        "electricity"
+    ],
+    "Geothermal energy": [
+        "electricity"
+    ],
+    "Hydroelectric power": [
+        "electricity"
+    ],
+    "Soil nutrients": [
+        "agricultural land"
+    ],
+    "Insects": [
+        "hunting resources"
+    ],
+    "Animals": [
+        "livestock"
+    ],
+    "Birds": [
+        "hunting resources"
+    ],
+    "Fish": [
+        "fishing resources"
+    ],
+    "Coral": [
+        "ecosystem protection"
+    ],
+    "Aquatic vegetation": [
+        "ecosystem protection"
+    ],
+    "Trees": [
+        "logging resources"
+    ],
+    "Forest": [
+        "ecological balance"
+    ],
+    "Underland vegetation": [
+        "ecosystem protection"
+    ],
+    "Soil bacteria": [
+        "soil fertility"
+    ],
+    "Landslides": [
+        "barren land"
+    ],
+    "Avalanches": [
+        "barren land"
+    ],
+    "Interconnected river systems": [
+        "ecological balance"
+    ],
+    "Streams": [
+        "fishing resources"
+    ],
+    "Lakes": [
+        "ecosystem protection"
+    ],
+    "Geological formations": [
+        "rock",
+        " clay",
+        " mineral ores"
+    ],
+    "Rock": [
+        "mining resources"
+    ],
+    "Clay": [
+        "construction resources"
+    ],
+    "Mineral ores": [
+        "mining resources"
+    ],
+    "Barren land": [
+        "agricultural land"
+    ],
+    "Agricultural land": [
+        "food production"
+    ],
+    "Livestock": [
+        "meat production"
+    ],
+    "Hunting resources": [
+        "food production"
+    ],
+    "Logging resources": [
+        ""
+    ]
+}

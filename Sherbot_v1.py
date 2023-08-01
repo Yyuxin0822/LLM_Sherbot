@@ -1,5 +1,6 @@
 
 import os
+import json
 
 from langchain.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
@@ -118,6 +119,14 @@ def flowdict(result):
         value=item.partition(":")[-1].strip("[]").strip("''")
         parsed_value=value.split(";")
         dict[key]=parsed_value
+    
+    # Serializing json
+    json_object = json.dumps(dict, indent=4)
+    
+    # Writing to sample.json
+    with open("static/flow.json", "w") as outfile:
+        outfile.write(json_object)
+    
     return dict
 
 def getoutputlist(dict):
@@ -203,6 +212,14 @@ def color(dict):
             colordict[item]="#00aeef"
         else:
             colordict[item]="white"
+   
+    # Serializing json
+    json_object = json.dumps(colordict, indent=4)
+    
+    # Writing to sample.json
+    with open("static/sample.json", "w") as outfile:
+        outfile.write(json_object)
+
     return colordict
     
 ######################################################
