@@ -1,112 +1,59 @@
 {
-    "Cheetah": [
-        "ecological balance"
+    "SOLAR ENERGY": [
+        "HEAT",
+        "ELECTRICITY"
     ],
-    "Fresh water": [
-        "potable water",
-        " irrigation water"
+    "WIND ENERGY": [
+        "ELECTRICITY",
+        "WIND TURBINES"
     ],
-    "Groundwater": [
-        "streams",
-        " lakes"
+    "GEOTHERMAL ENERGY": [
+        "ELECTRICITY",
+        "LOWTEMPERATURE HEAT"
     ],
-    "Biomass": [
-        "biofuel",
-        " biogas"
+    "FISH": [
+        "FOOD",
+        "NUTRACEUTICALS"
     ],
-    "Wild herbs": [
-        "herbal medicine"
+    "MARINE MAMMALS": [
+        "SUSTAINABLE TOURISM"
     ],
-    "Flora": [
-        "soil nutrients"
+    "REPTILES": [
+        "BIOLOGICALLYBASED PEST CONTROL"
     ],
-    "Wind energy": [
-        "electricity"
+    "BIRDS": [
+        "ECOSYSTEM CONSERVATION",
+        "WILDLIFE PROTECTION"
     ],
-    "Solar energy": [
-        "electricity"
+    "COASTAL VEGETATION": [
+        "COASTAL WETLAND RESTORATION"
     ],
-    "Geothermal energy": [
-        "electricity"
+    "DESERT VEGETATION": [
+        "WATER CAPTURE AND STORAGE SYSTEMS"
     ],
-    "Hydroelectric power": [
-        "electricity"
+    "OASES": [
+        "ECOTOURISM"
     ],
-    "Soil nutrients": [
-        "agricultural land"
+    "ROOT PLANTS": [
+        "BIODIVERSITY CONSERVATION",
+        "EROSION CONTROL"
     ],
-    "Insects": [
-        "hunting resources"
+    "FRESHWATER SPRINGS": [
+        "AQUIFER RECHARGE",
+        "WATER HARVESTING"
     ],
-    "Animals": [
-        "livestock"
+    "RAIN POOLS": [
+        "STORMWATER RUNOFF MITIGATION",
+        "CONSERVATION OF WATER RESOURCES"
     ],
-    "Birds": [
-        "hunting resources"
+    "SOIL MINERALS": [
+        "CHEMICALLYSTABLE FERTILIZER"
     ],
-    "Fish": [
-        "fishing resources"
+    "SALT FLATS": [
+        "DESALINATION"
     ],
-    "Coral": [
-        "ecosystem protection"
-    ],
-    "Aquatic vegetation": [
-        "ecosystem protection"
-    ],
-    "Trees": [
-        "logging resources"
-    ],
-    "Forest": [
-        "ecological balance"
-    ],
-    "Underland vegetation": [
-        "ecosystem protection"
-    ],
-    "Soil bacteria": [
-        "soil fertility"
-    ],
-    "Landslides": [
-        "barren land"
-    ],
-    "Avalanches": [
-        "barren land"
-    ],
-    "Interconnected river systems": [
-        "ecological balance"
-    ],
-    "Streams": [
-        "fishing resources"
-    ],
-    "Lakes": [
-        "ecosystem protection"
-    ],
-    "Geological formations": [
-        "rock",
-        " clay",
-        " mineral ores"
-    ],
-    "Rock": [
-        "mining resources"
-    ],
-    "Clay": [
-        "construction resources"
-    ],
-    "Mineral ores": [
-        "mining resources"
-    ],
-    "Barren land": [
-        "agricultural land"
-    ],
-    "Agricultural land": [
-        "food production"
-    ],
-    "Livestock": [
-        "meat production"
-    ],
-    "Hunting resources": [
-        "food production"
-    ],
-    "Logging resources": [
-        ""
+    "SAND DUNES": [
+        "WINDBREAK PROTECTION",
+        "SEDIMENT RETENTION"
     ]
 }

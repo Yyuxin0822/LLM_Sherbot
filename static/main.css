@@ -1,9 +1,11 @@
 
 body{
-  margin: 50px;
+  margin: 30px;
   background-color: white;
   text-align: center;
+  font-size: 18px;
   font-family: "Roboto", Helvetica, Arial, sans-serif
+
 }
 
 * {
@@ -12,15 +14,24 @@ body{
 
 /* Create three unequal columns that floats next to each other */
 .column {
-  float: left;
   padding: 10px;
+  margin: auto;
+  float: left;
+
 }
 
-.left, .right {
+.left {
+  margin-left: 0%;
   width: 25%;
-}
 
+}
+.right {
+  margin-left: 0%;
+  width: 25%;
+
+}
 .middle {
+  margin-left: 0%;
   width: 50%;
 }
 
@@ -30,25 +41,43 @@ body{
   display: table;
   clear: both;
 }
-
+/*  */
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .form{    
-  margin: 150px;}
+  align-self: center;
+  width: 50%;
+  height: 50px;
+}
+
+.btn{    
+
+  align-self: center;
+
+}
 
 .h1{    
-  font-family: "Lucida Console", "Courier New", monospace;
   padding-top: 0;
-  font-size: 24px;}
+
+}
 
 .h2{    
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight:500;
-  font-size: 24px;
-}   
 
-.p--caption{
-  line-height: 150%;
-  font-size: 12px;
-  color:black;
+  text-align: justify;
+}   
+.env{    
+  font-weight: 500;
+
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}   
+.li{
+  line-height: 120%;
+
   overflow: hidden;
 }

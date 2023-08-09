@@ -1,4 +1,4 @@
-from Sherbot_v1 import getcanvas,getinput,getoutput,getinputlist,getoutputlist,flowdict,classify,color
+from Sherbot_v1 import getcanvas,getinput,getoutput,getinputlist,getoutputlist,flowdict,categorize,color
 from flask import Flask, render_template, redirect, url_for, request
 from form import EnvDescriptionForm
 import json
@@ -20,7 +20,7 @@ def index(id=0):
         envD[id]=env
         result=flowdict(getoutput(env))
         resultD[id]=result
-        colorD[id]= color(classify(result))
+        colorD[id]= color(categorize(result))
         #inputD[id]=getinputlist(result)
         #outputD[id]=getoutputlist(result)
         canvas[id]=getcanvas(env)

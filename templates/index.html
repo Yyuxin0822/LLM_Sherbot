@@ -13,27 +13,30 @@
 <body>
 
   <form method="POST">
-    <div class=form>
+    <div>
     {{ temp_form.hidden_tag() }}
-    <p>{{ temp_form.env_description() }}</p>
-    <p>{{ temp_form.submit() }}</p>
+    <p>{{ temp_form.env_description(class='form')}}</p>
+    <p>{{ temp_form.submit(class='btn') }}</p>
   </div>
   </form>
 
   {% if canvas %}
-  <h2>{{env}}</h2>
+  <div class="env">{{env}}</div>
 
   <div class="row">
-    <div class="column left"  style="background-color:#aaa;">
-      <h3 id="input">Input</h3>
+    <div class="column left" >
+      <h2>Input</h2>
+      <div id="input" class="li"></div>
     </div>
     <div class="column middle" >
-      <img src={{canvas}}  alt="">
+      <img src={{canvas}} class="responsive" alt="">
     </div>
-    <div class="column right"  style="background-color:#ccc;">
-      <h3 id="output">Output</h3>
+    <div class="column right" >
+      <h2 >Output</h2>
+      <div id="output" class="li"></div>
     </div>
   </div>
+
   {% block javascript %}
   <script type="text/javascript">
 
@@ -59,7 +62,7 @@
           document.getElementById('output').appendChild(outputLI);
           new LeaderLine(
               document.getElementById(key),
-              document.getElementById(data[key][i])
+              document.getElementById(data[key][i]),{color: 'black', size: 1}
             );
           }
         }
@@ -68,8 +71,6 @@
 
 
   </script>
-
-  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script> 
   {% endblock %}
   {% endif %}
 </body>
