@@ -17,3 +17,5 @@ build/
 .DS_STORE
 
 .env
+
+__Dataset__/
