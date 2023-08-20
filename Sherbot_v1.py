@@ -129,7 +129,7 @@ def flowdict(result):
     json_object = json.dumps(dict, indent=4)
     
     # Writing to sample.json
-    with open("static/flow.json", "w") as outfile:
+    with open("static/v1/flow.json", "w") as outfile:
         outfile.write(json_object)
     
     return dict
@@ -256,7 +256,7 @@ def color(dict):
     json_object = json.dumps(colordict, indent=4)
     
     # Writing to sample.json
-    with open("static/sample.json", "w") as outfile:
+    with open("static/v1/sample.json", "w") as outfile:
         outfile.write(json_object)
 
     return colordict

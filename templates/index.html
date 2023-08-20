@@ -42,7 +42,7 @@
   <script type="text/javascript">
 
     var color={{color | tojson}}
-    fetch("{{ url_for('static', filename='flow.json') }}")
+    fetch("{{ url_for('static', filename='v1/flow.json') }}")
       // get the JSON data
       .then(response => response.json())
       // use (display) the JSON data
