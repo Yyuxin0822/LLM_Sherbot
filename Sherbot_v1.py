@@ -37,7 +37,7 @@ from langchain.chains import LLMChain
 ######################################################
 ######################################################
 # Template for generating input resources and what variables (using the {text} syntax) it should use.
-input_llm = OpenAI(model="text-davinci-003",temperature=1)
+input_llm = ChatOpenAI(model="gpt-4",temperature=1)
 
 def getinput(envir_description):
 
@@ -73,7 +73,7 @@ def getinput(envir_description):
 ######################################################
 ######################################################
 
-output_llm = OpenAI(model="text-davinci-003",temperature=1.0)
+output_llm = ChatOpenAI(model="gpt-4",temperature=1.0)
 
 def getoutput(envir_description):
     input_resources=getinput(envir_description)
