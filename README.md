@@ -11,8 +11,8 @@
 
 ## "GENERATE FLOW" is the button to send new TEXT-TO-FLOW DIAGRAM request.
 ### First, Input your environmental description here, click "GENERATE FLOW"
-![Alt text](URL or file path)
-
+![](/__Pic__/0.png)
+![](/__Pic__/1.jpg)
 ### The web will generate a compacted view of input-to-output flow. 
 ![Alt text](URL or file path)
 ### You can toggle image on and off by "Explore > Show Creative Image" and "Explore > Hide Creative Image" 
