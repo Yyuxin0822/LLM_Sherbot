@@ -12,8 +12,8 @@ from Sherbot_simpleflow import getelement, color, classify, convertsystem, retur
 os.environ["HUGGINGFACEHUB_API_TOKEN"] =  "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"
 os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = "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"
-
 # "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"
+
 ######################################################
 ######################################################
 #Helper Functions
