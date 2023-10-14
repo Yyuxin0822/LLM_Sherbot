@@ -27,19 +27,20 @@ Sherbot is an LLM-based web application for generative flow diagrams. As an educ
 
 ### ASK SHERBOT
 1. "ASK SHERBOT" is the button to send new request based on the element selections.
-2. Try, right-click to select one element, such as "OXYGEN"
+
+###### Trial 1
+1. Try, right-click to select one element, such as "OXYGEN"
+
+![text-to-flow](__Pic__/3.png)
+
+2. Then, click "ASK SHERBOT" 
 
 ![text-to-flow](__Pic__/4.png)
 
-3. Then, click "ASK SHERBOT" 
+3. Now, go back to by clicking "Explore > Lookup Simple Flow"
 
-![text-to-flow](__Pic__/5.png)
-
-
-### Now, go back to by clicking "Explore > Lookup Simple Flow"
-
-
-### Try, right-click to select one flow, such as  right-click "OXYGEN" --> select "Select Output Flow"--> "FUEL SOURCE"
+###### Trial 2
+1. Try, right-click to select one flow, such as  right-click "OXYGEN" --> select "Select Output Flow"--> "FUEL SOURCE"
 ### Then, click "ASK SHERBOT"
 ### The tool will expand on the internal process for generating flow
 
