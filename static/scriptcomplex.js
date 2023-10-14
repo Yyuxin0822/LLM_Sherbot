@@ -68,11 +68,13 @@ function logSimple(flow,matrix,matrixInput,matrixOutput,line,lineLibrary){
     setTag(keyObject,document.getElementById("tabRight"))
     let tag = document.getElementById('tag' + keyObject.key)
     tag.style.left=tagX*(-4.5)+"px";
+    tag.style.border ="5px solid black"//
   })
   matrixOutput.forEach(keyObject => {
     setTag(keyObject,document.getElementById("tabRight"))
     let tag = document.getElementById('tag' + keyObject.key)
     tag.style.left="0px";
+    tag.style.border ="5px solid black"//
   })
   
   flow.forEach(flow => {
@@ -110,7 +112,7 @@ function logComplex(complexflow,complexmatrix,matrixGroup,matrixMiddle,line,line
       let keyEnd = flow[index+1];
       let tagEnd = document.getElementById('tag' + keyEnd)
 
-    //     // complexflow sauce
+        // complexflow sauce
     //   if (matrixMiddle.every(keyObject => keyObject.key != keyStart)) {
     //     if(tagEnd.closest('.group')!=null){ 
     //       let group=tagEnd.closest('.group')

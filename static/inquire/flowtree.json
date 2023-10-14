@@ -1,32 +1,90 @@
 [
     [
         "SEAWEED",
-        "AQUACULTURE",
-        "SEAWEED AQUACULTURE FOR FOOD PRODUCTION"
+        "ECOSYSTEM SUPPORT"
+    ],
+    [
+        "FISH",
+        "ECOSYSTEM SUPPORT"
     ],
     [
         "SUBMERSIBLE VEHICLES",
-        "MARINE ARCHAEOLOGY",
-        "PRESERVATION OF MARINE ARCHAEOLOGICAL SITES"
+        "DEEP-SEA EXPLORATION"
     ],
     [
         "BIOLUMINESCENT CREATURES",
-        "LIGHT PRODUCTION",
-        "BIOLUMINESCENT LIGHT PRODUCTION"
+        "DEEP-SEA EXPLORATION"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "UNDERWATER CAVES",
-        "PROTECTED UNDERWATER CAVE ECOSYSTEMS"
+        "SUSTAINABLE UNDERWATER LIVING"
     ],
     [
         "SUNLIGHT",
-        "PHOTOSYNTHESIS",
-        "SUNLIGHT-DRIVEN ECOSYSTEM PRODUCTIVITY"
+        "SUSTAINABLE UNDERWATER LIVING"
+    ],
+    [
+        "OXYGEN",
+        "OXYGEN REGENERATION"
+    ],
+    [
+        "MARINE ANIMALS",
+        "OXYGEN REGENERATION"
+    ],
+    [
+        "SEA PLANTS",
+        "AQUATIC ECOSYSTEM FUNCTIONALITY"
+    ],
+    [
+        "SEAWATER",
+        "AQUATIC ECOSYSTEM FUNCTIONALITY"
+    ],
+    [
+        "AQUATIC MICROBES",
+        "AQUATIC ECOSYSTEM FUNCTIONALITY"
+    ],
+    [
+        "AQUATIC ENERGY",
+        "RENEWABLE AQUATIC ENERGY"
+    ],
+    [
+        "GEOTHERMAL VENTS",
+        "RENEWABLE AQUATIC ENERGY"
+    ],
+    [
+        "AQUATIC MINERALS",
+        "RENEWABLE AQUATIC ENERGY"
+    ],
+    [
+        "SEAWEED",
+        "FISH",
+        "ECOSYSTEM SUPPORT"
+    ],
+    [
+        "SUBMERSIBLE VEHICLES",
+        "BIOLUMINESCENT CREATURES",
+        "DEEP-SEA EXPLORATION"
+    ],
+    [
+        "BUBBLE DOME MATERIALS",
+        "SUNLIGHT",
+        "SUSTAINABLE UNDERWATER LIVING"
     ],
     [
         "OXYGEN",
         "MARINE ANIMALS",
-        "OXYGEN BALANCE IN MARINE ECOSYSTEMS"
+        "OXYGEN REGENERATION"
+    ],
+    [
+        "SEA PLANTS",
+        "SEAWATER",
+        "AQUATIC MICROBES",
+        "AQUATIC ECOSYSTEM FUNCTIONALITY"
+    ],
+    [
+        "AQUATIC ENERGY",
+        "GEOTHERMAL VENTS",
+        "AQUATIC MINERALS",
+        "RENEWABLE AQUATIC ENERGY"
     ]
 ]

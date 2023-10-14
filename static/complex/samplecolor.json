@@ -1,8 +1,10 @@
 {
-    "MATERIAL RECOVERY FACILITY": "#ffc60b",
-    "AUTOMATED WASTE SEGREGATION": "#ffc60b",
-    "WASTE-TO-ENERGY PROCESSES": "#ffc60b",
-    "COMPOSTING": "#ffc60b",
-    "ANAEROBIC DIGESTION": "#ffc60b",
-    "WASTE-TO-MATERIAL PROCESS": "#ffc60b"
+    "RECYCLING CENTER": "lightgrey",
+    "SORTING": "lightgrey",
+    "CLEANING": "lightgrey",
+    "PROCESSING": "lightgrey",
+    "PAPER MILLING PROCESS": "lightgrey",
+    "MECHANICAL RECYCLING": "lightgrey",
+    "CHEMICAL RECYCLING": "lightgrey",
+    "PYROLYSIS PLANT": "#ffc60b"
 }

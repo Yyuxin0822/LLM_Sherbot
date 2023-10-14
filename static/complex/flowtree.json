@@ -1,107 +1,39 @@
 [
     [
         "OXYGEN",
-        "HYDROGEN",
-        "WATER",
+        "COMBUSTION",
         "ENERGY",
         "FUEL SOURCE"
     ],
     [
         "OXYGEN",
-        "HYDROGEN",
-        "FUEL CELL",
-        "ELECTRICITY",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "COMBUSTION REACTIONS",
-        "FUELS",
-        "ENERGY",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "COAL",
-        "GASIFICATION PROCESS",
-        "SYNTHETIC FUELS",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "METHANE",
-        "METHANOL",
+        "SPACE MISSIONS",
+        "LIQUID OXYGEN",
+        "ROCKET FUEL",
         "FUEL SOURCE"
     ],
     [
         "OXYGEN",
         "FUEL CELLS",
-        "POWER",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "ROCKET PROPELLANTS",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "OXIDATION PROCESS",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "COMBUSTION ENGINES",
-        "BURN FUEL",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "FUEL CELL",
-        "HYDROGEN",
+        "HYDROGEN REACTION",
         "ELECTRICITY",
         "WATER",
         "FUEL SOURCE"
     ],
     [
         "OXYGEN",
-        "HYDROCARBON COMBUSTION",
+        "METAL-AIR BATTERIES",
+        "AIR",
         "FUEL SOURCE"
     ],
     [
         "OXYGEN",
-        "OXY-FUEL COMBUSTION PROCESS",
+        "OXY-FUEL WELDING AND CUTTING",
         "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "METAL-AIR FUEL CELLS",
-        "FUEL SOURCE"
-    ],
-    [
-        "OXYGEN",
-        "PHOTOSYNTHESIS",
-        "SEAWEED"
-    ],
-    [
-        "OXYGEN",
-        "LIGHT AND NUTRIENTS",
-        "SEAWEED BLOOM",
-        "SEAWEED"
-    ],
-    [
-        "OXYGEN",
-        "SEA FARMS",
-        "SEAWEED"
-    ],
-    [
-        "OXYGEN",
-        "INDOOR CULTIVATION SYSTEMS",
-        "SEAWEED"
     ],
     [
         "SEAWATER",
-        "SEA MINING",
+        "EVAPORATION PROCESS",
         "MINERAL EXTRACTION"
     ],
     [
@@ -111,805 +43,855 @@
     ],
     [
         "SEAWATER",
-        "SOLAR STILLS",
+        "ELECTROLYSIS",
         "MINERAL EXTRACTION"
     ],
     [
         "SEAWATER",
-        "EVAPORATIVE MINING",
-        "MINERAL EXTRACTION"
-    ],
-    [
-        "SEAWATER",
-        "ELECTRODIALYSIS",
+        "PRECIPITATION",
         "MINERAL EXTRACTION"
     ],
     [
         "AQUATIC MINERALS",
-        "SEABED MINING TECHNOLOGIES",
+        "REFINING TECHNIQUES",
         "INDUSTRIAL MATERIALS"
     ],
     [
         "AQUATIC MINERALS",
-        "HYDROMETALLURGICAL PROCESSING",
+        "SUBSEA MINING TECHNOLOGY",
         "INDUSTRIAL MATERIALS"
     ],
     [
         "AQUATIC MINERALS",
-        "ADVANCED FILTRATION TECHNOLOGIES",
+        "SEDIMENTATION TECHNOLOGY",
         "INDUSTRIAL MATERIALS"
     ],
     [
         "AQUATIC MINERALS",
-        "MINERAL EXTRACTION METHODS",
-        "MANUFACTURING PROCESSES",
+        "ADVANCED FILTRATION TECHNIQUES",
         "INDUSTRIAL MATERIALS"
+    ],
+    [
+        "UNDERWATER SOIL",
+        "SUSTAINABLE PRACTICES",
+        "SEABED FARMING"
+    ],
+    [
+        "UNDERWATER SOIL",
+        "SUBAQUEOUS SOIL MAPPING",
+        "UNDERWATER TILLAGE",
+        "SEABED FARMING"
+    ],
+    [
+        "UNDERWATER SOIL",
+        "CONSTRUCTION OF UNDERWATER GREENHOUSES",
+        "SEABED FARMING"
+    ],
+    [
+        "UNDERWATER SOIL",
+        "USE OF AQUATIC PLANTS",
+        "FERTILE GROUND",
+        "SEABED FARMING"
     ],
     [
         "SALT",
-        "ELECTROLYSIS",
-        "CHLORINE",
+        "RAW MATERIAL",
+        "CHEMICAL MANUFACTURE",
+        "CHEMICAL INDUSTRY"
+    ],
+    [
+        "SALT",
+        "TRANSFORM",
+        "CHLORINE GAS",
         "SODIUM HYDROXIDE",
         "CHEMICAL INDUSTRY"
     ],
     [
         "SALT",
-        "SOLVAY PROCESS",
+        "ELECTROLYSIS",
+        "CAUSTIC SODA",
+        "CHLORINE",
+        "CHEMICAL INDUSTRY"
+    ],
+    [
+        "SALT",
+        "PRODUCTION",
         "SODIUM CARBONATE",
         "CHEMICAL INDUSTRY"
     ],
     [
         "SALT",
-        "AMMONIA-SODA PROCESS",
-        "SODA ASH",
-        "CHEMICAL INDUSTRY"
-    ],
-    [
-        "SALT",
-        "MANNHEIM PROCESS",
-        "HYDROCHLORIC ACID",
+        "CONVERT",
+        "BLEACH",
         "CHEMICAL INDUSTRY"
     ],
     [
         "OCEAN CURRENTS",
-        "HARNESSING POWER",
+        "REMOTE SENSING (SATELLITE)",
+        "DATA",
         "CLIMATE STUDY"
     ],
     [
         "OCEAN CURRENTS",
-        "OBSERVATION VIA SATELLITES AND OTHER TECHNOLOGIES",
+        "DATA ASSIMILATIVE SYSTEM",
+        "FIGURES",
         "CLIMATE STUDY"
     ],
     [
         "OCEAN CURRENTS",
-        "COMPUTER SIMULATIONS",
+        "GLOBAL CONVEYOR BELT THEORY",
+        "CLIMATE PATTERNS",
         "CLIMATE STUDY"
     ],
     [
         "OCEAN CURRENTS",
-        "MONITORING",
+        "HURRICANE TRACKING",
+        "DATA",
+        "CLIMATE STUDY"
+    ],
+    [
+        "OCEAN CURRENTS",
+        "OCEAN CURRENT BUOYS",
+        "INFORMATION",
+        "CLIMATE MODELING AND FORECASTING",
         "CLIMATE STUDY"
     ],
     [
         "UNDERWATER CAVES",
-        "CAVE DIVING",
+        "SCUBA DIVING TECHNOLOGY",
+        "ARTIFACTS",
         "MARINE ARCHAEOLOGY"
     ],
     [
         "UNDERWATER CAVES",
-        "PHOTOGRAMMETRY",
-        "SONAR MAPPING",
+        "SONAR TECHNOLOGY",
         "MARINE ARCHAEOLOGY"
     ],
     [
         "UNDERWATER CAVES",
-        "UNDERWATER ROVS",
+        "ROV TECHNOLOGY",
+        "DOCUMENTATION",
         "MARINE ARCHAEOLOGY"
     ],
     [
         "UNDERWATER CAVES",
-        "LOW LIGHT AND OXYGEN LEVELS",
+        "D MODELING TECHNOLOGY",
+        "PHYSICAL FEATURES",
         "MARINE ARCHAEOLOGY"
     ],
     [
         "UNDERWATER CAVES",
-        "D IMAGING",
-        "REMOTELY OPERATED UNDERWATER VEHICLES",
+        "SEDIMENT ANALYSIS TECHNIQUES",
+        "PALEO-ENVIRONMENTAL INFORMATION",
         "MARINE ARCHAEOLOGY"
     ],
     [
         "IODINE",
-        "HARNESSING/MINING",
-        "REFINING",
+        "NATURAL GAS FIELDS",
         "CHEMICAL REACTIONS",
         "CHEMICAL INDUSTRY"
     ],
     [
         "IODINE",
-        "EXTRACTION FROM SOLUTIONS",
-        "OXIDATION",
-        "SUBLIMATION",
-        "CONDENSATION",
+        "OCEAN WATER",
+        "EVAPORATION",
+        "PURIFICATION",
         "CHEMICAL INDUSTRY"
     ],
     [
         "IODINE",
-        "DERIVED FROM SEAWEED",
-        "EXPLOITATION",
+        "SEAWEED",
+        "DYES",
+        "DISINFECTANTS",
         "CHEMICAL INDUSTRY"
     ],
     [
         "IODINE",
-        "COLLECTED FROM BRINE WELLS",
-        "PROCESSING",
-        "CHEMICAL INDUSTRY"
-    ],
-    [
-        "IODINE",
-        "OBTAINED FROM NATURAL GAS FIELDS",
+        "BRINE WELLS",
+        "IODINE-CONTAINING DRUGS",
+        "IODIZED SALTS",
         "CHEMICAL INDUSTRY"
     ],
     [
         "DEEP SEA MINING RESOURCES",
-        "SOLVENT EXTRACTION",
-        "RARE EARTH ELEMENTS"
-    ],
-    [
-        "DEEP SEA MINING RESOURCES",
-        "ION-EXCHANGE LEACHING",
-        "RARE EARTH ELEMENTS"
-    ],
-    [
-        "DEEP SEA MINING RESOURCES",
-        "ELECTROCHEMICAL PROCESSING",
-        "RARE EARTH ELEMENTS"
-    ],
-    [
-        "DEEP SEA MINING RESOURCES",
-        "FROTH FLOTATION",
-        "RARE EARTH ELEMENTS"
-    ],
-    [
-        "MANGANESE NODULES",
-        "BIO-LEACHING PROCESS",
-        "MANGANESE",
-        "BATTERY TECHNOLOGY"
-    ],
-    [
-        "MANGANESE NODULES",
-        "PYROMETALLURGICAL METHODS",
-        "MANGANESE",
-        "BATTERY TECHNOLOGY"
-    ],
-    [
-        "MANGANESE NODULES",
-        "HYDROMETALLURGICAL PROCESSING",
-        "COMPOUNDS",
-        "BATTERY TECHNOLOGY"
-    ],
-    [
-        "MANGANESE NODULES",
-        "ACIDIC LEACHING",
-        "ELEMENTS",
-        "BATTERY TECHNOLOGY"
-    ],
-    [
-        "MANGANESE NODULES",
-        "DEEP SEA MINING",
         "EXTRACTION",
+        "RARE EARTH ELEMENTS"
+    ],
+    [
+        "DEEP SEA MINING RESOURCES",
+        "ROVS",
+        "RARE EARTH ELEMENTS"
+    ],
+    [
+        "DEEP SEA MINING RESOURCES",
+        "SOLWARA 1 PROJECT",
+        "RARE EARTH ELEMENTS"
+    ],
+    [
+        "DEEP SEA MINING RESOURCES",
+        "NAUTILUS MINERALS' MINING MACHINES",
+        "RARE EARTH ELEMENTS"
+    ],
+    [
+        "DEEP SEA MINING RESOURCES",
+        "LEACHING",
+        "RARE EARTH ELEMENTS"
+    ],
+    [
+        "MANGANESE NODULES",
+        "DEEP-SEA MINING",
+        "MANGANESE",
+        "BATTERY TECHNOLOGY"
+    ],
+    [
+        "MANGANESE NODULES",
+        "HYDROMETALLURGICAL PROCESS",
+        "LEACHING",
+        "PURIFICATION",
+        "BATTERY TECHNOLOGY"
+    ],
+    [
+        "MANGANESE NODULES",
+        "BIOLEACHING",
+        "MANGANESE",
+        "BATTERY TECHNOLOGY"
+    ],
+    [
+        "MANGANESE NODULES",
+        "PYROMETALLURGICAL METHOD",
+        "MANGANESE",
         "BATTERY TECHNOLOGY"
     ],
     [
         "SUNLIGHT",
-        "CHLOROPHYLL",
-        "CARBON DIOXIDE",
-        "WATER",
-        "GLUCOSE",
-        "OXYGEN",
-        "PHOTOSYNTHESIS"
-    ],
-    [
-        "SUNLIGHT",
         "PLANTS",
-        "CARBON DIOXIDE",
-        "WATER",
-        "GLUCOSE",
         "PHOTOSYNTHESIS"
     ],
     [
         "SUNLIGHT",
-        "SPECIALIZED CELLS",
-        "GREEN PLANTS",
-        "ENERGY",
+        "CHEMICAL ENERGY CONVERSION",
         "PHOTOSYNTHESIS"
     ],
     [
         "SUNLIGHT",
-        "PLANTS",
-        "OXYGEN",
+        "SOLAR PANELS",
+        "USABLE ENERGY",
         "PHOTOSYNTHESIS"
     ],
     [
         "SUNLIGHT",
-        "PHOTOSYNTHETIC ORGANISMS",
-        "CHLOROPHYLL PIGMENTS",
-        "FOOD",
+        "LEAVES",
+        "ABUNDANT LIGHT",
+        "PHOTOSYNTHESIS"
+    ],
+    [
+        "SUNLIGHT",
+        "BOTANY RESEARCH",
         "PHOTOSYNTHESIS"
     ],
     [
         "AQUATIC ENERGY",
-        "OCEAN THERMAL ENERGY CONVERSION (OTEC)",
+        "OTEC PROCESS",
         "OCEAN THERMAL ENERGY CONVERSION"
     ],
     [
         "AQUATIC ENERGY",
-        "CLOSED-CYCLE OTEC",
-        "WARM SURFACE SEAWATER",
-        "WORKING FLUID",
-        "TURBINE",
-        "GENERATOR",
-        "COLD SEAWATER",
+        "RENEWABLE ENERGY TECHNOLOGIES",
+        "TEMPERATURE DIFFERENCES",
         "OCEAN THERMAL ENERGY CONVERSION"
     ],
     [
         "AQUATIC ENERGY",
-        "OPEN-CYCLE OTEC",
-        "WARM SURFACE SEAWATER",
-        "VACUUM CHAMBER",
-        "TURBINE",
-        "COLD SEAWATER",
+        "OPEN CYCLE OTEC SYSTEMS",
         "OCEAN THERMAL ENERGY CONVERSION"
     ],
     [
         "AQUATIC ENERGY",
-        "HYBRID OTEC",
-        "CLOSED-CYCLE OTEC",
-        "OPEN-CYCLE OTEC",
+        "OFFSHORE OCEAN ENERGY HARVESTING",
         "OCEAN THERMAL ENERGY CONVERSION"
     ],
     [
         "GEOTHERMAL VENTS",
-        "HEAT AND CHEMICALS",
+        "HEAT, LIGHT AND NUTRIENTS",
         "EXTREMOPHILES",
         "EXTREMOPHILE STUDIES"
     ],
     [
         "GEOTHERMAL VENTS",
-        "UNIQUE EXTREME CONDITIONS",
+        "HIGH PRESSURE AND TEMPERATURE",
+        "EXTREMOPHILES",
+        "ADAPTATIONS",
         "EXTREMOPHILE STUDIES"
     ],
     [
         "GEOTHERMAL VENTS",
-        "REMOTELY-OPERATED UNDERSEA VEHICLES",
-        "EXTREMOPHILES",
+        "EMIT HYDROGEN SULFIDE",
+        "CHEMOSYNTHESIS",
         "EXTREMOPHILE STUDIES"
     ],
     [
         "GEOTHERMAL VENTS",
-        "THERMAL DNA SEQUENCING TECHNOLOGY",
-        "EXTREMOPHILES",
+        "ROVS",
+        "SAMPLE COLLECTION",
         "EXTREMOPHILE STUDIES"
     ],
     [
+        "WAVE ENERGY",
+        "WAVE ENERGY CONVERTER",
+        "MECHANICAL ENERGY",
+        "ELECTRICAL ENERGY",
+        "REVERSE OSMOSIS",
+        "DESALINATION"
+    ],
+    [
+        "WAVE ENERGY",
+        "DISTILLATION PROCESS",
+        "DESALINATION"
+    ],
+    [
+        "WAVE ENERGY",
+        "ELECTRODIALYSIS",
+        "DESALINATION"
+    ],
+    [
+        "WAVE ENERGY",
+        "WAVE ENERGY CONVERTER",
+        "THERMAL DESALINATION",
+        "DESALINATION"
+    ],
+    [
         "UNDERWATER WIND",
-        "UNDERWATER WIND TURBINES",
+        "TIDAL POWER STATIONS",
         "ELECTRICITY GENERATION"
     ],
     [
         "UNDERWATER WIND",
-        "GENERATOR",
-        "TURBINE",
+        "PELAMIS WAVE ENERGY CONVERTER",
         "ELECTRICITY GENERATION"
     ],
     [
         "UNDERWATER WIND",
-        "HYDROELECTRIC POWER TECHNOLOGIES",
+        "UNDERWATER KITES",
         "ELECTRICITY GENERATION"
     ],
     [
         "UNDERWATER WIND",
-        "UNDERWATER WINDMILL",
-        "TURBINE",
-        "ELECTRICITY GENERATION"
-    ],
-    [
-        "UNDERWATER WIND",
-        "ELECTROMAGNETISM TECHNOLOGIES",
+        "DEEP GREEN TECHNOLOGY",
+        "SEABED-BASED POINT",
         "ELECTRICITY GENERATION"
     ],
     [
         "HYDROTHERMAL ENERGY",
-        "HYDRODISTILLATION",
+        "STEAM GENERATION",
         "DISTILLATION"
     ],
     [
         "HYDROTHERMAL ENERGY",
-        "HEAT EXCHANGER",
-        "WATER HEATING",
+        "GEOTHERMAL PLANTS",
+        "DUAL FLASH",
+        "TRIPLE FLASH",
+        "BINARY CYCLE PLANTS",
         "DISTILLATION"
     ],
     [
         "HYDROTHERMAL ENERGY",
-        "HYDROTHERMAL POWER PLANT",
-        "STEAM TURBINE",
-        "HYDROTHERMAL ELECTRICITY",
-        "DISTILLATION APPARATUS",
+        "WATER PURIFICATION",
+        "STEAM CREATION",
+        "CONDENSATION",
         "DISTILLATION"
     ],
     [
         "HYDROTHERMAL ENERGY",
-        "WATER HEATING",
-        "STEAM",
-        "COOLING",
+        "CHEMICAL INDUSTRIES",
+        "SEPARATION OF CHEMICAL COMPOUNDS",
         "DISTILLATION"
     ],
     [
         "TIDAL ENERGY",
-        "TURBINES",
+        "CONVERSION",
         "ELECTRICITY",
         "GRID STABILITY"
     ],
     [
         "TIDAL ENERGY",
-        "TIDAL STREAM GENERATOR",
+        "TIDAL STREAM GENERATORS",
+        "ACCUMULATE ENERGY",
         "GRID STABILITY"
     ],
     [
         "TIDAL ENERGY",
-        "TIDAL BARRAGE",
+        "PUMPED STORAGE SYSTEMS",
+        "STORAGE",
         "GRID STABILITY"
     ],
     [
         "TIDAL ENERGY",
-        "UNDERWATER TURBINES",
+        "DISTRIBUTED GENERATION",
+        "SMOOTHING OUTPUT",
         "GRID STABILITY"
     ],
     [
-        "SEAWEED",
-        "FERMENTATION",
-        "BIOETHANOL",
-        "BIOFUEL"
+        "TIDAL ENERGY",
+        "TIDAL LAGOONS",
+        "PREDICTABLE POWER OUTPUT",
+        "GRID STABILITY"
     ],
     [
         "SEAWEED",
         "HYDROTHERMAL LIQUEFACTION",
-        "BIO-CRUDE",
         "BIOFUEL"
     ],
     [
         "SEAWEED",
-        "OIL EXTRACTION",
-        "BIODIESEL",
-        "BIOFUEL"
-    ],
-    [
-        "SEAWEED",
-        "ANAEROBIC DIGESTION",
-        "BIOGAS",
-        "BIOFUEL"
-    ],
-    [
-        "SEAWEED",
-        "PYROLYSIS",
-        "BIO-OIL AND GAS",
-        "BIOFUEL"
-    ],
-    [
-        "SEAWEED",
-        "WAVE AND FLOW ENERGY DEVICES",
-        "OCEAN CURRENTS"
-    ],
-    [
-        "SEAWEED",
-        "LARGE-SCALE SEAWED AQUACULTURE",
-        "OCEAN CURRENTS"
-    ],
-    [
-        "SEAWEED",
-        "SEAWED FARM POSITIONING AND ARRANGEMENT",
-        "OCEAN CURRENTS"
-    ],
-    [
-        "SEAWEED",
-        "SPATIAL STRUCTURE OF FARM",
-        "OCEAN CURRENTS"
-    ],
-    [
-        "BIOLUMINESCENT CREATURES",
-        "CHEMICAL REACTION",
-        "OXIDISATION OF LUCIFERIN",
-        "LIGHT PRODUCTION"
-    ],
-    [
-        "BIOLUMINESCENT CREATURES",
-        "PROTEINS",
-        "AEQUORIN OR PHOTOPROTEIN",
-        "LIGHT PRODUCTION"
-    ],
-    [
-        "BIOLUMINESCENT CREATURES",
-        "ENZYME",
-        "LUCIFERASE",
-        "OXIDATION OF LUCIFERIN",
-        "LIGHT PRODUCTION"
-    ],
-    [
-        "BIOLUMINESCENT CREATURES",
-        "BACTERIAL SYMBIONTS OR PHOTOPHORES",
-        "LIGHT PRODUCTION"
-    ],
-    [
-        "MARINE ANIMALS",
-        "MARINE FOOD WEB",
-        "BIODIVERSITY"
-    ],
-    [
-        "MARINE ANIMALS",
-        "MARINE PROTECTED AREAS",
-        "BIODIVERSITY"
-    ],
-    [
-        "MARINE ANIMALS",
-        "SYMBIOTIC RELATIONSHIPS",
-        "BIODIVERSITY"
-    ],
-    [
-        "MARINE ANIMALS",
-        "SUSTAINABLE FISHING PRACTICES",
-        "BIODIVERSITY"
-    ],
-    [
-        "MARINE ANIMALS",
-        "ECOSYSTEM ENGINEERS",
-        "BIODIVERSITY"
-    ],
-    [
-        "SEA PLANTS",
-        "PHOTOSYNTHESIS",
-        "FOOD AND SHELTER",
-        "HABITAT"
-    ],
-    [
-        "SEA PLANTS",
-        "UNDERWATER FORESTS CONSTRUCTION",
-        "HABITAT"
-    ],
-    [
-        "SEA PLANTS",
-        "PROVIDING COVER",
-        "HABITAT"
-    ],
-    [
-        "SEA PLANTS",
-        "PROVIDING ENVIRONMENTS",
-        "BIODIVERSITY",
-        "HABITAT"
-    ],
-    [
-        "AQUATIC MICROBES",
-        "ALGAE BIOFUEL PRODUCTION PROCESS",
-        "BIOFUEL"
-    ],
-    [
-        "AQUATIC MICROBES",
-        "MICROBIAL FUEL CELL TECHNOLOGY",
-        "BIOFUEL"
-    ],
-    [
-        "AQUATIC MICROBES",
         "FERMENTATION PROCESS",
         "BIOFUEL"
     ],
     [
-        "AQUATIC MICROBES",
+        "SEAWEED",
         "ANAEROBIC DIGESTION",
         "BIOFUEL"
     ],
     [
+        "SEAWEED",
+        "MACROALGAE-TO-BIOFUEL PROCESS",
+        "BIOFUEL"
+    ],
+    [
+        "SEAWEED",
+        "THERMOCHEMICAL CONVERSION PROCESSES",
+        "BIOFUEL"
+    ],
+    [
+        "FISH",
+        "AQUAPONICS SYSTEMS",
+        "PLANT FERTILIZATION",
+        "NUTRIENT RECYCLING"
+    ],
+    [
+        "FISH",
+        "COMPOSTING SYSTEMS",
+        "COMPOST",
+        "NUTRIENT RECYCLING"
+    ],
+    [
+        "FISH",
+        "VERMICULTURE",
+        "WORM CASTINGS",
+        "COMPOST",
+        "NUTRIENT RECYCLING"
+    ],
+    [
+        "FISH",
+        "BIODIGESTERS",
+        "BIOGAS",
+        "BIOFERTILIZER",
+        "NUTRIENT RECYCLING"
+    ],
+    [
+        "BIOLUMINESCENT CREATURES",
+        "CHEMICAL REACTION",
+        "BIOLUMINESCENCE",
+        "LIGHT PRODUCTION"
+    ],
+    [
+        "BIOLUMINESCENT CREATURES",
+        "SYMBIOTIC RELATIONSHIP WITH BACTERIA",
+        "LIGHT PRODUCTION"
+    ],
+    [
+        "BIOLUMINESCENT CREATURES",
+        "EXPRESSION OF LUCIFERASE GENE",
+        "LIGHT PRODUCTION"
+    ],
+    [
+        "BIOLUMINESCENT CREATURES",
+        "MECHANICAL STIMULATION OR DISTURBANCE",
+        "LIGHT PRODUCTION"
+    ],
+    [
+        "MARINE ANIMALS",
+        "ECOLOGICAL BALANCE AND RELATIONSHIPS",
+        "BIODIVERSITY"
+    ],
+    [
+        "MARINE ANIMALS",
+        "FOOD CHAIN COMPLEXITIES AND ENVIRONMENTAL INTERACTIONS",
+        "BIODIVERSITY"
+    ],
+    [
+        "MARINE ANIMALS",
+        "GENETIC VARIATION",
+        "BIODIVERSITY"
+    ],
+    [
+        "MARINE ANIMALS",
+        "PROVIDING DIFFERENT HABITATS AND REPRODUCTION METHODS",
+        "BIODIVERSITY"
+    ],
+    [
+        "SEA PLANTS",
+        "PHOTOSYNTHESIS",
+        "OXYGEN;CARBON DIOXIDE REMOVAL",
+        "HABITAT"
+    ],
+    [
+        "SEA PLANTS",
+        "SHELTER;FOOD PROVIDER",
+        "HABITAT"
+    ],
+    [
+        "SEA PLANTS",
+        "MANGROVES",
+        "WAVE ENERGY REDUCTION",
+        "HABITAT"
+    ],
+    [
+        "SEA PLANTS",
+        "SEDIMENTS ACCUMULATION",
+        "SUBSTRATE",
+        "HABITAT"
+    ],
+    [
+        "SEA PLANTS",
+        "ORGANIC SUBSTANCES RELEASE",
+        "MARINE ENVIRONMENT",
+        "HABITAT"
+    ],
+    [
         "AQUATIC MICROBES",
-        "MICROBIAL ELECTROLYSIS PROCESS",
+        "ALGAE BIOFUEL PROCESS",
+        "BIOFUEL"
+    ],
+    [
+        "AQUATIC MICROBES",
+        "MICROBIAL FUEL CELL",
+        "BIOFUEL"
+    ],
+    [
+        "AQUATIC MICROBES",
+        "OIL AND SUGAR PRODUCTION",
+        "BIOLOGICAL FERMENTATION",
+        "BIODIESEL AND ETHANOL",
+        "BIOFUEL"
+    ],
+    [
+        "AQUATIC MICROBES",
+        "BIOLOGICAL CARBON CAPTURE",
+        "BIOMASS",
+        "BIOFUEL"
+    ],
+    [
+        "AQUATIC MICROBES",
+        "PHOTOSYNTHESIS",
+        "HYDROGEN",
         "BIOFUEL"
     ],
     [
         "CORAL REEFS",
-        "DIVING AND SNORKELING",
+        "DIVING AND SNORKELING ATTRACTIONS",
         "TOURISM"
     ],
     [
         "CORAL REEFS",
-        "PROTECTED MARINE PARKS",
+        "BEACH PROTECTION",
         "TOURISM"
     ],
     [
         "CORAL REEFS",
-        "PRESERVATION AND RESEARCH",
-        "GUIDED TOURS",
+        "MARINE WILDLIFE TOURISM",
         "TOURISM"
     ],
     [
         "CORAL REEFS",
-        "ECO-TOURISM",
-        "ECONOMIC DEVELOPMENT",
-        "TOURISM"
-    ],
-    [
-        "CORAL REEFS",
-        "UNDERWATER PHOTOGRAPHY AND FISH WATCHING",
+        "UNDERWATER PHOTOGRAPHY AND RESEARCH TRIPS",
         "TOURISM"
     ],
     [
         "PLANKTON",
-        "PHOTOSYNTHESIS",
-        "ORGANIC MATTER",
+        "HARVESTING",
+        "DRYING",
         "FISH FOOD"
     ],
     [
         "PLANKTON",
-        "AQUACULTURE FARMING",
+        "COLLECTION",
+        "AQUACULTURE TECHNOLOGY",
         "FISH FOOD"
     ],
     [
         "PLANKTON",
-        "TROPHIC LEVEL",
-        "FOOD CHAIN",
+        "BIOREACTOR CULTIVATION",
+        "PROCESSING",
         "FISH FOOD"
     ],
     [
         "PLANKTON",
-        "MYCOPROTEIN FACILITY",
+        "PHOTOSYNTHETIC PROCESSES",
+        "NUTRITIOUS FOOD SOURCE",
         "FISH FOOD"
     ],
     [
-        "SHELLFISH",
-        "BIOFILTRATION PROCESS",
-        "WATER FILTRATION"
+        "PLANKTON",
+        "LARGE-SCALE CAPTURE",
+        "PRESERVATION",
+        "FISH FOOD"
     ],
     [
-        "SHELLFISH",
-        "FEEDING PROCESS",
-        "WATER FILTRATION"
-    ],
-    [
-        "SHELLFISH",
-        "CULTIVATION IN POLLUTED WATER AREAS",
-        "WATER FILTRATION"
-    ],
-    [
-        "SHELLFISH",
-        "FEEDING AND FILTRATION PROCESS",
-        "WATER FILTRATION"
-    ],
-    [
-        "SPONGE",
-        "EXTRACTION OF CHEMICALS",
+        "MARINE BACTERIA",
+        "LAB CULTURE",
+        "BIOPRODUCTS",
         "MEDICAL RESEARCH"
     ],
     [
-        "SPONGE",
-        "NATURAL PRODUCTS",
-        "DISEASE TREATMENT",
+        "MARINE BACTERIA",
+        "GENETIC ANALYSIS",
+        "ANTIBIOTIC-RESISTANT GENES",
         "MEDICAL RESEARCH"
     ],
     [
-        "SPONGE",
-        "BIOLOGICAL AND ECOLOGICAL FEATURES",
+        "MARINE BACTERIA",
+        "PRODUCTION OF ENZYMES, VITAMINS AND BIOACTIVE COMPOUNDS",
         "MEDICAL RESEARCH"
     ],
     [
+        "MARINE BACTERIA",
+        "STUDY OF METABOLIC AND SURVIVAL CAPABILITIES",
+        "UNDERSTANDING DISEASE PROCESSES",
+        "MEDICAL RESEARCH"
+    ],
+    [
+        "MARINE BACTERIA",
+        "DRUG DISCOVERY",
+        "NEW COMPOUNDS",
+        "MEDICAL RESEARCH"
+    ],
+    [
+        "SHELLFISH",
+        "NATURAL FEEDING PROCESSES",
+        "WATER FILTRATION"
+    ],
+    [
+        "SHELLFISH",
+        "BIOFILTRATION",
+        "WATER FILTRATION"
+    ],
+    [
+        "SHELLFISH",
+        "AQUACULTURE",
+        "WATER FILTRATION"
+    ],
+    [
+        "SHELLFISH",
+        "CONSTRUCTED WETLANDS",
+        "WATER FILTRATION"
+    ],
+    [
+        "SHELLFISH",
+        "RECIRCULATING AQUACULTURE SYSTEMS (RAS)",
+        "WATER FILTRATION"
+    ],
+    [
         "SPONGE",
-        "MEDICINAL COMPOUNDS",
+        "BIOMEDICAL RESEARCH",
         "DRUG DISCOVERY",
         "MEDICAL RESEARCH"
     ],
     [
         "SPONGE",
-        "GENOMIC RESEARCH",
+        "BIOLOGICAL AND ECOLOGICAL DATA",
+        "MARINE BIOPROSPECTING",
+        "MEDICAL RESEARCH"
+    ],
+    [
+        "SPONGE",
+        "NATURAL STRUCTURE",
+        "TISSUE ENGINEERING",
+        "MEDICAL RESEARCH"
+    ],
+    [
+        "SPONGE",
+        "DEEP-SEA SPONGES",
+        "UNIQUE CHEMICAL ENTITIES",
+        "PHARMACEUTICAL APPLICATIONS",
         "MEDICAL RESEARCH"
     ],
     [
         "SEA CUCUMBER",
-        "FILTRATION OF WATER",
+        "ECOLOGICALLY BALANCED MARINE ECOSYSTEM",
+        "ORGANIC WASTE MATERIALS",
         "BIOREMEDIATION"
     ],
     [
         "SEA CUCUMBER",
-        "PRESERVING CORAL REEFS",
+        "FEEDING ACTIVITY",
+        "NUTRIENT RECYCLING",
         "BIOREMEDIATION"
     ],
     [
         "SEA CUCUMBER",
-        "BIOTURBATION PROCESS",
+        "REMOVING HEAVY METALS",
         "BIOREMEDIATION"
     ],
     [
         "SEA CUCUMBER",
-        "FEEDING ACTIVITIES",
-        "WATER QUALITY",
+        "BIOTURBATION ACTIVITY",
+        "REWORK THE SEDIMENTS",
         "BIOREMEDIATION"
     ],
     [
         "MARINE FUNGI",
-        "BIOACTIVE METABOLITES",
+        "BIOACTIVE COMPOUNDS PRODUCTION",
         "MEDICAL RESEARCH"
     ],
     [
         "MARINE FUNGI",
-        "EXTRACTS",
-        "DRUG DEVELOPMENT",
+        "FERMENTATION PROCESSES",
+        "DRUG DISCOVERY",
         "MEDICAL RESEARCH"
     ],
     [
         "MARINE FUNGI",
-        "NOVEL COMPOUNDS",
+        "ISOLATION AND IDENTIFICATION",
         "MEDICAL RESEARCH"
     ],
     [
         "MARINE FUNGI",
-        "BIOACTIVE COMPOUNDS",
-        "DISEASE TREATMENT STUDIES",
-        "MEDICAL RESEARCH"
-    ],
-    [
-        "MARINE FUNGI",
-        "FERMENTATION",
-        "SECONDARY METABOLITES",
+        "DIVERSE ECOLOGICAL ROLES",
         "MEDICAL RESEARCH"
     ],
     [
         "LOBSTERS",
-        "LOBSTER FARMING",
+        "CONFINED AQUACULTURES",
+        "SEAWEED AND FISH FEED",
         "AQUACULTURE"
     ],
     [
         "LOBSTERS",
-        "HATCHERY TECHNOLOGY",
+        "HATCHERY",
+        "MATURING",
         "AQUACULTURE"
     ],
     [
         "LOBSTERS",
-        "RECIRCULATING AQUACULTURE SYSTEM (RAS)",
+        "FLOATING AQUACULTURE",
+        "CAGES",
+        "NATURAL BODIES OF WATER",
         "AQUACULTURE"
     ],
     [
         "LOBSTERS",
-        "MARICULTURE",
+        "INDOOR TANK BASED SYSTEMS",
+        "MARINE AQUACULTURE PENS",
         "AQUACULTURE"
     ],
     [
         "LOBSTERS",
-        "INTEGRATED MULTI-TROPHIC AQUACULTURE",
-        "SEAWEED"
-    ],
-    [
-        "LOBSTERS",
-        "CONTROLLED ENVIRONMENT",
-        "NUTRIENTS",
-        "SEAWEED"
-    ],
-    [
-        "LOBSTERS",
-        "SEAWEED FARMING",
-        "NATURAL FERTILISER",
-        "SEAWEED"
-    ],
-    [
-        "LOBSTERS",
-        "CLOSED LOOP AQUACULTURE",
-        "BIOLOGICAL FUNCTION",
-        "SEAWEED"
+        "RECIRCULATING AQUACULTURE SYSTEMS",
+        "FILTER AND RECYCLE WATER",
+        "AQUACULTURE"
     ],
     [
         "BIOLUMINESCENT ALGAE",
-        "GROWTH",
-        "LIGHT GENERATION",
+        "LUCIFERASE ENZYME EXTRACTION",
+        "BIOLUMINESCENT STREET LAMPS",
         "ENERGY PRODUCTION"
     ],
     [
         "BIOLUMINESCENT ALGAE",
-        "PHOTOSYNTHESIS",
-        "GLUCOSE PRODUCTION",
+        "BIOLOGICAL LIGHTING SYSTEMS DEVELOPMENT",
         "ENERGY PRODUCTION"
     ],
     [
         "BIOLUMINESCENT ALGAE",
-        "BIOLUMINESCENT PROPERTIES",
-        "BIOLOGICAL LIGHT SOURCES",
+        "RENEWABLE AND ECOLOGICALLY FRIENDLY LIGHT SOURCES",
+        "SILICON SOLAR CELLS",
+        "ELECTRICAL ENERGY",
         "ENERGY PRODUCTION"
     ],
     [
         "BIOLUMINESCENT ALGAE",
-        "BIO-ENERGY",
-        "POWERING SMALL DEVICES",
+        "PRINCIPLE OF BIOLUMINESCENCE",
+        "BIO-BATTERIES",
+        "BIO-LANTERNS",
+        "BIO-ENGINEERING APPLICATIONS",
         "ENERGY PRODUCTION"
     ],
     [
         "BIOLUMINESCENT ALGAE",
-        "BIOMASS ENERGY",
-        "EXTRACTION",
+        "GENETIC MODIFICATION",
+        "LIGHT PRODUCTION CAPABILITIES",
+        "LARGER-SCALE ENERGY PRODUCTION SYSTEMS",
         "ENERGY PRODUCTION"
     ],
     [
         "KELP",
-        "CULTIVATION AND HARVESTING",
-        "SHELLFISH AND FINFISH FARMING",
+        "SUSTAINABLE FOOD SOURCE",
         "AQUACULTURE"
     ],
     [
         "KELP",
-        "ENHANCE WATER QUALITY",
+        "IMPROVE WATER QUALITY",
         "AQUACULTURE"
     ],
     [
         "KELP",
-        "INTEGRATED INTO MULTI-TROPHIC AQUACULTURE",
-        "DIVERSITY AND PRODUCTIVITY",
+        "INTEGRATED MULTI-TROPHIC AQUACULTURE SYSTEMS",
         "AQUACULTURE"
     ],
     [
         "KELP",
-        "PRIMARY SOURCE OF FOOD",
-        "ABALONE FARMING",
+        "CULTIVATED AND HARVESTED",
+        "AQUACULTURE"
+    ],
+    [
+        "KELP",
+        "PROCESSED INTO FEED",
         "AQUACULTURE"
     ],
     [
         "SUBMERSIBLE VEHICLES",
-        "REMOTELY OPERATED VEHICLE (ROV) TECHNOLOGY",
+        "MINING TOOLS",
+        "MINERALS",
         "DEEP SEA MINING"
     ],
     [
         "SUBMERSIBLE VEHICLES",
-        "AUTOMATED UNDERWATER VEHICLES (AUVS)",
+        "REMOTELY OPERATED VEHICLES TECHNOLOGY",
         "DEEP SEA MINING"
     ],
     [
         "SUBMERSIBLE VEHICLES",
-        "HYDRAULIC SUCTION SYSTEMS",
+        "SUCTION AND CONVEYOR BELT SYSTEMS",
+        "MINERALS",
         "DEEP SEA MINING"
     ],
     [
         "SUBMERSIBLE VEHICLES",
-        "CUTTER SUCTION SYSTEMS",
-        "DEEP SEA MINING"
-    ],
-    [
-        "SUBMERSIBLE VEHICLES",
-        "SPATIAL GRID TECHNOLOGIES",
+        "CUTTING TECHNOLOGY",
+        "MINERALS",
         "DEEP SEA MINING"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "CONSTRUCTION TECHNOLOGIES",
+        "MANIPULATION",
         "RESEARCH FACILITIES"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "UNIQUE STRUCTURE",
+        "NATURAL LIGHT",
+        "STABLE TEMPERATURE",
+        "ENERGY EFFICIENCY",
         "RESEARCH FACILITIES"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "ECO-SUSTAINABLE PROCESSES",
+        "EXPERIMENTAL BIOSPHERE",
         "RESEARCH FACILITIES"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "ADAPTIVE REUSE STRATEGIES",
+        "UNDERWATER CONSTRUCTION",
         "RESEARCH FACILITIES"
-    ],
-    [
-        "METAL ALLOYS",
-        "EXTRUSION PROCESS",
-        "CONSTRUCTION MATERIALS"
-    ],
-    [
-        "METAL ALLOYS",
-        "MOLDING PROCESS",
-        "CONSTRUCTION MATERIALS"
-    ],
-    [
-        "METAL ALLOYS",
-        "MACHINING AND ASSEMBLY",
-        "CONSTRUCTION MATERIALS"
     ],
     [
         "METAL ALLOYS",
@@ -918,58 +900,70 @@
     ],
     [
         "METAL ALLOYS",
-        "FORGING",
+        "EXTRUSION PROCESS",
+        "CONSTRUCTION MATERIALS"
+    ],
+    [
+        "METAL ALLOYS",
+        "ROLLING PROCESS",
+        "CONSTRUCTION MATERIALS"
+    ],
+    [
+        "METAL ALLOYS",
+        "FORGING PROCESS",
+        "CONSTRUCTION MATERIALS"
+    ],
+    [
+        "METAL ALLOYS",
+        "ADDITIVE MANUFACTURING",
         "CONSTRUCTION MATERIALS"
     ],
     [
         "PEARLS",
-        "PEARL FARMING",
+        "JEWELRY PROCESSING METHODS",
         "LUXURY GOODS"
     ],
     [
         "PEARLS",
-        "MANUAL HARVESTING",
+        "CRAFT OF INLAY",
         "LUXURY GOODS"
     ],
     [
         "PEARLS",
-        "JEWEL CRAFTING",
+        "HIGH-GRADE ACCESSORIES PROCESSING",
         "LUXURY GOODS"
     ],
     [
         "PEARLS",
-        "JEWELRY DESIGNING",
-        "LUXURY GOODS"
-    ],
-    [
-        "PEARLS",
-        "JEWELRY MANUFACTURING",
+        "CRAFTSMANSHIP",
         "LUXURY GOODS"
     ],
     [
         "RECYCLABLE WASTE",
-        "MATERIAL RECOVERY FACILITY",
+        "RECYCLING CENTER",
+        "SORTING",
+        "CLEANING",
+        "PROCESSING",
         "RAW MATERIALS"
     ],
     [
         "RECYCLABLE WASTE",
-        "AUTOMATED WASTE SEGREGATION",
+        "PAPER MILLING PROCESS",
         "RAW MATERIALS"
     ],
     [
         "RECYCLABLE WASTE",
-        "WASTE-TO-ENERGY PROCESSES",
+        "MECHANICAL RECYCLING",
         "RAW MATERIALS"
     ],
     [
         "RECYCLABLE WASTE",
-        "COMPOSTING",
-        "ANAEROBIC DIGESTION",
+        "CHEMICAL RECYCLING",
         "RAW MATERIALS"
     ],
     [
         "RECYCLABLE WASTE",
-        "WASTE-TO-MATERIAL PROCESS",
+        "PYROLYSIS PLANT",
         "RAW MATERIALS"
     ]
 ]
