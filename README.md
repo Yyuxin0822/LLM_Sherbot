@@ -6,14 +6,14 @@ Sherbot is an LLM-based web application for generative flow diagrams. As an educ
 1. Activate virtual environment and python dependencies
 2. cd "static", install node modules in package-lock, this project uses leader-line and plain-draggable package by anseki
 3. The webapp is powered by gpt-4 and dalle2, you can adapt the code to the model you selected accordingly
-4. Run python app.py, the webpage will open
+4. The interactivity of the web will be improved in the next release
+5. Run python app.py, the webpage will open
 
 ### GENERATE FLOW
 1. "GENERATE FLOW" is the button to send new TEXT-TO-FLOW DIAGRAM request.
 2. First, Input your environmental description here, click "GENERATE FLOW"
 
 ![text-to-flow](__Pic__/0.png)
-![text-to-flow](__Pic__/1.jpg)
 
 3. The web will generate a compacted view of input-to-output flow. 
 
