@@ -93,5 +93,15 @@ This realease realizes all below function of Sherbot. The interactivity of the w
 
 ![text-to-flow](__Pic__/13.png)
 
-## This tool contains many human customization features under "Explore"
-### Here are some examples
+### This tool contains many features for human customization
+1. Including Regenerate Image / Drag Image / Draw / Edit Image Size / Show Notes / Modify input and output / Add New Tag
+
+Below are some examples.
+
+![text-to-flow](__Pic__/a.png)
+
+![text-to-flow](__Pic__/b.png)
+
+![text-to-flow](__Pic__/c.png)
+
+![text-to-flow](__Pic__/d.png)
