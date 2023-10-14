@@ -7,7 +7,7 @@ import openai
 import langchain
 from langchain.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-
+from config import OPENAI_API_KEY
 
 
 ######################################################

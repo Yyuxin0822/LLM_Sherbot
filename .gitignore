@@ -19,4 +19,5 @@ build/
 .env
 
 __Dataset__/
-static/node_modules
+static/node_modules/
+config.py
