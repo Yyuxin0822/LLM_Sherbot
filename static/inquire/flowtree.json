@@ -1,0 +1,46 @@
+[
+    [
+        "COMPOSTING",
+        "ALGAE GROWTH AND NUTRIENT RECYCLING"
+    ],
+    [
+        "COMPOSTING",
+        "ORGANIC FERTILIZER PRODUCTION"
+    ],
+    [
+        "ALGAE",
+        "ORGANIC FERTILIZER PRODUCTION"
+    ],
+    [
+        "FERTILIZER",
+        "IMPROVED SOIL QUALITY"
+    ],
+    [
+        "SOIL SUPPLEMENT",
+        "IMPROVED SOIL QUALITY"
+    ],
+    [
+        "COMPOSTING",
+        "ALGAE",
+        "ALGAE GROWTH AND NUTRIENT RECYCLING",
+        "COMPOSTING"
+    ],
+    [
+        "COMPOSTING",
+        "FERTILIZER",
+        "ORGANIC FERTILIZER PRODUCTION",
+        "COMPOSTING"
+    ],
+    [
+        "ALGAE",
+        "FERTILIZER",
+        "ALGAE-BASED ORGANIC FERTILIZER",
+        "ALGAE"
+    ],
+    [
+        "FERTILIZER",
+        "SOIL SUPPLEMENT",
+        "IMPROVED SOIL QUALITY",
+        "FERTILIZER"
+    ]
+]

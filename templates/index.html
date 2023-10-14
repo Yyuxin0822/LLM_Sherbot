@@ -8,72 +8,98 @@
   <title>Sherbot</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"  />
   <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script>
+  <script src="{{ url_for('static', filename='node_modules/plain-draggable/plain-draggable.min.js') }}" async></script>
+  <!-- <script src="{{ url_for('static', filename='node_modules/html2canvas/dist/html2canvas.min.js') }}" async>import html2canvas from 'html2canvas';</script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"async></script> -->
+
+
 </head>
 
 
 <body>
-
-  <form method="POST">
-    <div>
-    {{ temp_form.hidden_tag() }}
-    <p>{{ temp_form.env_description(class='form')}}</p>
-    <p>{{ temp_form.submit(class='btn') }}</p>
+  <div id="request">
+    <form method="POST">
+      <div class="tab" id="tabForm">
+        {{ temp_form.hidden_tag() }}
+        <div>{{ temp_form.env_description(class='form')}}</div>
+        <div>{{ temp_form.submit(class='btn')}}</div>
+      </div>
+    </form>
   </div>
-  </form>
 
+
+
+
+  
   {% if canvas %}
-  <div class="env">{{env}}</div>
 
-  <div class="row">
-    <div class="column left" >
-      <h2>Input</h2>
-      <div id="input" class="li"></div>
-    </div>
-    <div class="column middle" >
-      <img src={{canvas}} class="responsive" alt="">
-    </div>
-    <div class="column right" >
-      <h2 >Output</h2>
-      <div id="output" class="li"></div>
-    </div>
-  </div>
 
   {% block javascript %}
-  <script type="text/javascript">
+  <script>
+    const flow_url ="{{url_for('static', filename='simple/simpleflow.json')}}";
+    const matrix_url ="{{ url_for('static', filename='simple/simplematrix.json') }}";
+    const complexflow_url ="{{ url_for('static', filename='complex/flowtree.json') }}";
+    const complexmatrix_url ="{{ url_for('static', filename='complex/matrix.json') }}";
+    const inquireflow_url ="{{ url_for('static', filename='inquire/flowtree.json') }}";
+    const inquirematrix_url ="{{ url_for('static', filename='inquire/matrix.json') }}";
 
-    var color={{color | tojson}}
-    fetch("{{ url_for('static', filename='v1/flow.json') }}")
-      // get the JSON data
-      .then(response => response.json())
-      // use (display) the JSON data
-      .then(data => 
-        {for (var key in data){
-        let inputLI=document.createElement('div');
-        inputLI.id=key;
-        inputLI.innerHTML=key;
-        inputLI.style.color=color[key];
-        document.getElementById('input').appendChild(inputLI);
+    const imageUrl ="{{ url_for('static', filename='envir.png') }}";
 
-          for (var i in data[key]){
-            let value=data[key][i]
-          let outputLI=document.createElement('div');
-          outputLI.id=value;
-          outputLI.innerHTML=value;
-          outputLI.style.color=color[value];
-          document.getElementById('output').appendChild(outputLI);
-          new LeaderLine(
-              document.getElementById(key),
-              document.getElementById(data[key][i]),{color: 'black', size: 1}
-            );
-          }
-        }
-        }
-      );
-
-
+    const systemDataUrl ="{{ url_for('static', filename='dataset/sample_processed.json') }}";
+    const systemrequest_url ="{{ url_for('static', filename='inquire/sample_usersys.json') }}";
+    const message_url ="{{ url_for('static', filename='message/sherbotmessage.json') }}";
   </script>
-  {% endblock %}
-  {% endif %}
-</body>
 
+  <script defer src="{{ url_for('static', filename='layout.js') }}" ></script>
+  <script defer src="{{ url_for('static', filename='functionbuttons.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='canvas.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='scriptcomplex.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='modal.js') }}"></script>
+
+  {% endblock %}
+  <button data-modal-target="modal" style="border-width: 0px; color:rgba(0, 0, 0,0);"></button>
+  <div class="modal" id ="modal">
+    <div id="handle"></div>
+    <div class="modal-header">
+      <textarea class="title" placeholder="Log your note here..." id="modal-note"></textarea>
+      <button data-close-button class="close-button">&times;</button>  
+    </div>
+    <div class="modal-body" id="modal-body">      </div>
+
+
+  </div>
+  <div id="overlay"></div>
+
+
+  <div id="pane">
+    <div class="tab" id="tabEnv">
+      <div>{{env}}</div>
+  </div>
+    <div class="tab" id="tabFunction"></div>
+    <div class="tab" id="tabFuncMenu"></div>
+    <div class="tab" id="tabField">
+        <!-- <div class="anno">Input</div>
+        <div class="anno">Environment Canvas</div>
+        <div class="anno">Output</div> -->
+    </div>
+  </div>
+  
+  <div id="field">
+    <div class="tab" id="tabLeft"></div>
+    <div class="tab" id="tabMiddle"></div>
+    <div class="tab" id="tabRight"></div>
+    <div class="tab" id="tabInspire"></div>
+  </div>
+
+  <div id="canvasboard"> 
+    <canvas id="canvasDraw" height="12000" width="12000"></canvas>
+  </div>
+  
+
+  {% endif %}
+
+
+
+
+</body>
 

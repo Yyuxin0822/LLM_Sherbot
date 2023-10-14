@@ -1,0 +1,47 @@
+{
+    "COMPOSTING": [
+        "#39b54a",
+        0,
+        0
+    ],
+    "ALGAE GROWTH AND NUTRIENT RECYCLING": [
+        "#39b54a",
+        1,
+        0
+    ],
+    "ORGANIC FERTILIZER PRODUCTION": [
+        "#39b54a",
+        1,
+        1
+    ],
+    "ALGAE": [
+        "#39b54a",
+        0,
+        2
+    ],
+    "FERTILIZER": [
+        "#39b54a",
+        0,
+        3
+    ],
+    "IMPROVED SOIL QUALITY": [
+        "#39b54a",
+        1,
+        3
+    ],
+    "SOIL SUPPLEMENT": [
+        "#39b54a",
+        0,
+        4
+    ],
+    "ALGAE-BASED ORGANIC FERTILIZER": [
+        "#39b54a",
+        2,
+        7
+    ],
+    "TOTAL": [
+        "white",
+        4,
+        9
+    ]
+}

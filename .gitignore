@@ -19,3 +19,4 @@ build/
 .env
 
 __Dataset__/
+static/node_modules/
