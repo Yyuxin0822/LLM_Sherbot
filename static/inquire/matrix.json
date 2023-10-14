@@ -1,47 +1,97 @@
 {
-    "COMPOSTING": [
+    "SEAWEED": [
         "#39b54a",
         0,
         0
     ],
-    "ALGAE GROWTH AND NUTRIENT RECYCLING": [
-        "#39b54a",
+    "AQUACULTURE": [
+        "#00aeef",
         1,
         0
     ],
-    "ORGANIC FERTILIZER PRODUCTION": [
+    "SEAWEED AQUACULTURE FOR FOOD PRODUCTION": [
         "#39b54a",
+        2,
+        0
+    ],
+    "SUBMERSIBLE VEHICLES": [
+        "lightgrey",
+        0,
+        1
+    ],
+    "MARINE ARCHAEOLOGY": [
+        "lightgrey",
         1,
         1
     ],
-    "ALGAE": [
+    "PRESERVATION OF MARINE ARCHAEOLOGICAL SITES": [
+        "lightgrey",
+        2,
+        1
+    ],
+    "BIOLUMINESCENT CREATURES": [
         "#39b54a",
         0,
         2
     ],
-    "FERTILIZER": [
-        "#39b54a",
+    "LIGHT PRODUCTION": [
+        "#ffc60b",
+        1,
+        2
+    ],
+    "BIOLUMINESCENT LIGHT PRODUCTION": [
+        "#ffc60b",
+        2,
+        2
+    ],
+    "BUBBLE DOME MATERIALS": [
+        "lightgrey",
         0,
         3
     ],
-    "IMPROVED SOIL QUALITY": [
-        "#39b54a",
+    "UNDERWATER CAVES": [
+        "#00aeef",
         1,
         3
     ],
-    "SOIL SUPPLEMENT": [
+    "PROTECTED UNDERWATER CAVE ECOSYSTEMS": [
         "#39b54a",
+        2,
+        3
+    ],
+    "SUNLIGHT": [
+        "#ffc60b",
         0,
         4
     ],
-    "ALGAE-BASED ORGANIC FERTILIZER": [
+    "PHOTOSYNTHESIS": [
+        "#39b54a",
+        1,
+        4
+    ],
+    "SUNLIGHT-DRIVEN ECOSYSTEM PRODUCTIVITY": [
         "#39b54a",
         2,
-        7
+        4
+    ],
+    "OXYGEN": [
+        "lightgrey",
+        0,
+        5
+    ],
+    "MARINE ANIMALS": [
+        "#39b54a",
+        1,
+        5
+    ],
+    "OXYGEN BALANCE IN MARINE ECOSYSTEMS": [
+        "#39b54a",
+        2,
+        5
     ],
     "TOTAL": [
         "white",
-        4,
-        9
+        3,
+        6
     ]
 }

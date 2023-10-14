@@ -1,146 +1,154 @@
 [
     [
-        "FISH",
-        "FISH OIL"
-    ],
-    [
         "SEAWEED",
-        "NATURAL FOOD COLORING"
+        "BIOFUEL"
     ],
     [
-        "BIOLUMINESCENT ORGANISMS",
-        "BIO-SCIENTIFIC RESEARCH"
+        "FISH",
+        "NUTRIENT RECYCLING"
+    ],
+    [
+        "SUBMERSIBLE VEHICLES",
+        "DEEP SEA MINING"
+    ],
+    [
+        "BIOLUMINESCENT CREATURES",
+        "LIGHT PRODUCTION"
     ],
     [
         "BUBBLE DOME MATERIALS",
-        "EXTRUDED BUILDING MATERIALS"
+        "RESEARCH FACILITIES"
     ],
     [
-        "SUBMERSIBLE VEHICLE FUEL",
-        "POWER GENERATION"
+        "SUNLIGHT",
+        "PHOTOSYNTHESIS"
     ],
     [
-        "DEEP SEA MINERALS",
-        "REMOTE ENERGY STORAGE"
+        "OXYGEN",
+        "FUEL SOURCE"
     ],
     [
-        "WATER PRESSURE ENERGY",
-        "DESALINATED WATER"
+        "MARINE ANIMALS",
+        "BIODIVERSITY"
     ],
     [
-        "SALT WATER",
-        "SALTS"
+        "SEA PLANTS",
+        "HABITAT"
     ],
     [
-        "AQUACULTURAL WASTE",
-        "FERTILIZER"
+        "SEAWATER",
+        "MINERAL EXTRACTION"
     ],
     [
-        "CORALS",
-        "ECOSYSTEM SERVICES"
+        "AQUATIC MICROBES",
+        "BIOFUEL"
     ],
     [
-        "PLANKTON",
-        "BIO-OXYGEN GENERATION"
+        "AQUATIC ENERGY",
+        "OCEAN THERMAL ENERGY CONVERSION"
     ],
     [
-        "THERMAL ENERGY",
-        "DESALINATED WATER"
+        "GEOTHERMAL VENTS",
+        "EXTREMOPHILE STUDIES"
+    ],
+    [
+        "AQUATIC MINERALS",
+        "INDUSTRIAL MATERIALS"
+    ],
+    [
+        "CORAL REEFS",
+        "TOURISM"
     ],
     [
         "UNDERWATER SOIL",
-        "NUTRIENT EXTRACTION"
+        "SEABED FARMING"
     ],
     [
-        "SEA SPONGES",
-        "BIO-MEDICAL RESEARCH"
+        "PLANKTON",
+        "FISH FOOD"
     ],
     [
-        "SHELLFISH",
-        "CALCIUM COMPOUND"
+        "METAL ALLOYS",
+        "CONSTRUCTION MATERIALS"
     ],
     [
-        "ALGAE",
-        "FERTILIZER"
-    ],
-    [
-        "AQUATIC PLANTS",
-        "WASTEWATER TREATMENT"
-    ],
-    [
-        "OCEAN CURRENT ENERGY",
-        "MECHANICAL POWER"
-    ],
-    [
-        "ARTIFICIAL INTELLIGENCE",
-        "PREDICTIVE MAINTENANCE"
+        "SALT",
+        "CHEMICAL INDUSTRY"
     ],
     [
         "MARINE BACTERIA",
-        "BIO-PHARMACEUTICALS"
+        "MEDICAL RESEARCH"
     ],
     [
-        "HYDROPONICS SUPPLIES",
-        "HYDROPONIC FOOD PRODUCTION"
+        "OCEAN CURRENTS",
+        "CLIMATE STUDY"
     ],
     [
-        "UNDERSEA CABLE MATERIALS",
-        "ELECTRICAL CONDUCTORS"
+        "WAVE ENERGY",
+        "DESALINATION"
     ],
     [
-        "GLASS MATERIALS",
-        "BUILDING MATERIAL"
+        "UNDERWATER WIND",
+        "ELECTRICITY GENERATION"
+    ],
+    [
+        "HYDROTHERMAL ENERGY",
+        "DISTILLATION"
+    ],
+    [
+        "SHELLFISH",
+        "WATER FILTRATION"
+    ],
+    [
+        "SPONGE",
+        "MEDICAL RESEARCH"
+    ],
+    [
+        "PEARLS",
+        "LUXURY GOODS"
+    ],
+    [
+        "SEA CUCUMBER",
+        "BIOREMEDIATION"
+    ],
+    [
+        "MARINE FUNGI",
+        "MEDICAL RESEARCH"
     ],
     [
         "TIDAL ENERGY",
-        "ELECTRICITY"
+        "GRID STABILITY"
     ],
     [
-        "MARINE LIFE GENETIC RESOURCES",
-        "GENOME RESEARCH"
+        "RECYCLABLE WASTE",
+        "RAW MATERIALS"
     ],
     [
-        "OCEANOGRAPHIC DATA",
-        "FISHERIES MANAGEMENT"
+        "LOBSTERS",
+        "AQUACULTURE"
     ],
     [
-        "SEA SALTS",
-        "FOOD SEASONING"
+        "BIOLUMINESCENT ALGAE",
+        "ENERGY PRODUCTION"
     ],
     [
-        "FLOATING ALGAE",
-        "FERTILIZER"
+        "KELP",
+        "AQUACULTURE"
     ],
     [
-        "UNDERSEA ROCKS",
-        "SITE ANCHORING"
+        "UNDERWATER CAVES",
+        "MARINE ARCHAEOLOGY"
     ],
     [
-        "MARINE ALGAE",
-        "COSMETICS"
+        "IODINE",
+        "CHEMICAL INDUSTRY"
     ],
     [
-        "UNDERWATER VOLCANIC MATERIALS",
-        "GEOTHERMAL ENERGY"
+        "DEEP SEA MINING RESOURCES",
+        "RARE EARTH ELEMENTS"
     ],
     [
-        "MARINE MICROORGANISM",
-        "WASTE TREATMENT"
-    ],
-    [
-        "MARINE GENETIC RESOURCES",
-        "BIODIVERSITY CONSERVATION"
-    ],
-    [
-        "TRACE ELEMENTS IN SEAWATER",
-        "INDUSTRIAL PROCESSES"
-    ],
-    [
-        "DEEP-SEA SEDIMENTS",
-        "METALS"
-    ],
-    [
-        "DEEP-SEA GAS HYDRATES",
-        "ENERGY STORAGE"
+        "MANGANESE NODULES",
+        "BATTERY TECHNOLOGY"
     ]
 ]

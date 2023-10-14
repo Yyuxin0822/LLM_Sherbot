@@ -1,46 +1,32 @@
 [
     [
-        "COMPOSTING",
-        "ALGAE GROWTH AND NUTRIENT RECYCLING"
+        "SEAWEED",
+        "AQUACULTURE",
+        "SEAWEED AQUACULTURE FOR FOOD PRODUCTION"
     ],
     [
-        "COMPOSTING",
-        "ORGANIC FERTILIZER PRODUCTION"
+        "SUBMERSIBLE VEHICLES",
+        "MARINE ARCHAEOLOGY",
+        "PRESERVATION OF MARINE ARCHAEOLOGICAL SITES"
     ],
     [
-        "ALGAE",
-        "ORGANIC FERTILIZER PRODUCTION"
+        "BIOLUMINESCENT CREATURES",
+        "LIGHT PRODUCTION",
+        "BIOLUMINESCENT LIGHT PRODUCTION"
     ],
     [
-        "FERTILIZER",
-        "IMPROVED SOIL QUALITY"
+        "BUBBLE DOME MATERIALS",
+        "UNDERWATER CAVES",
+        "PROTECTED UNDERWATER CAVE ECOSYSTEMS"
     ],
     [
-        "SOIL SUPPLEMENT",
-        "IMPROVED SOIL QUALITY"
+        "SUNLIGHT",
+        "PHOTOSYNTHESIS",
+        "SUNLIGHT-DRIVEN ECOSYSTEM PRODUCTIVITY"
     ],
     [
-        "COMPOSTING",
-        "ALGAE",
-        "ALGAE GROWTH AND NUTRIENT RECYCLING",
-        "COMPOSTING"
-    ],
-    [
-        "COMPOSTING",
-        "FERTILIZER",
-        "ORGANIC FERTILIZER PRODUCTION",
-        "COMPOSTING"
-    ],
-    [
-        "ALGAE",
-        "FERTILIZER",
-        "ALGAE-BASED ORGANIC FERTILIZER",
-        "ALGAE"
-    ],
-    [
-        "FERTILIZER",
-        "SOIL SUPPLEMENT",
-        "IMPROVED SOIL QUALITY",
-        "FERTILIZER"
+        "OXYGEN",
+        "MARINE ANIMALS",
+        "OXYGEN BALANCE IN MARINE ECOSYSTEMS"
     ]
 ]

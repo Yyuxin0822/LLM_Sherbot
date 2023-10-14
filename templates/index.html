@@ -9,9 +9,6 @@
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"  />
   <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script>
   <script src="{{ url_for('static', filename='node_modules/plain-draggable/plain-draggable.min.js') }}" async></script>
-  <!-- <script src="{{ url_for('static', filename='node_modules/html2canvas/dist/html2canvas.min.js') }}" async>import html2canvas from 'html2canvas';</script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"async></script> -->
-
 
 </head>
 
@@ -53,8 +50,9 @@
   <script defer src="{{ url_for('static', filename='layout.js') }}" ></script>
   <script defer src="{{ url_for('static', filename='functionbuttons.js') }}"></script>
   <script defer src="{{ url_for('static', filename='canvas.js') }}"></script>
-  <script defer src="{{ url_for('static', filename='scriptcomplex.js') }}"></script>
   <script defer src="{{ url_for('static', filename='modal.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='scriptcomplex.js') }}"></script>
+
 
   {% endblock %}
   <button data-modal-target="modal" style="border-width: 0px; color:rgba(0, 0, 0,0);"></button>

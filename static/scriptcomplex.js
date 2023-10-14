@@ -110,20 +110,20 @@ function logComplex(complexflow,complexmatrix,matrixGroup,matrixMiddle,line,line
       let keyEnd = flow[index+1];
       let tagEnd = document.getElementById('tag' + keyEnd)
 
-        // complexflow sauce
-      if (matrixMiddle.every(keyObject => keyObject.key != keyStart)) {
-        if(tagEnd.closest('.group')!=null){ 
-          let group=tagEnd.closest('.group')
-          tagStart.style.top = ((parseInt(group.style.height)/2+parseInt(group.style.top)-tagY/2))+"px"
-          console.log()
-        }
-    }
-      if (matrixMiddle.every(keyObject => keyObject.key != keyEnd)) {
-        if(tagStart.closest('.group')!=null){ 
-          let group=tagStart.closest('.group')
-          tagEnd.style.top =((parseInt(group.style.height)/2+parseInt(group.style.top)-tagY/2))+"px"
-        }
-    }   
+    //     // complexflow sauce
+    //   if (matrixMiddle.every(keyObject => keyObject.key != keyStart)) {
+    //     if(tagEnd.closest('.group')!=null){ 
+    //       let group=tagEnd.closest('.group')
+    //       tagStart.style.top = ((parseInt(group.style.height)/2+parseInt(group.style.top)-tagY/2))+"px"
+    //       console.log()
+    //     }
+    // }
+    //   if (matrixMiddle.every(keyObject => keyObject.key != keyEnd)) {
+    //     if(tagStart.closest('.group')!=null){ 
+    //       let group=tagStart.closest('.group')
+    //       tagEnd.style.top =((parseInt(group.style.height)/2+parseInt(group.style.top)-tagY/2))+"px"
+    //     }
+    // }   
 
 
 
@@ -209,7 +209,7 @@ function showsimpleflow(lineLibrary){
 
 
 function showcomplexflow(lineLibrary){
-
+  openModal(modal)
   var buttons=document.querySelectorAll('button.tag');
   buttons.forEach(button => {hidetag(button)})
   lineLibrary.forEach(lineObject => {
@@ -316,6 +316,7 @@ function returnlock(lock,lockflow,lineLibrary){
 }
 
 function showinspirationflow(lineLibrary){
+  openModal(modal)
   tabs=["tabRight","tabLeft","tabInspire","tabMiddle"]
   tabs.forEach(tab => {
     let tabElement = document.getElementById(tab)
@@ -527,6 +528,7 @@ addGlobalEventListener('click','#buttonHideAllFlow',e=>{
     
 addGlobalEventListener('click', '#buttonASKSHERBOT', e => {
   console.log(e.target.id);
+  openModal(modal)
   logInquire(lineLibrary);
 })
 
@@ -862,7 +864,12 @@ function clearDropdownItems(){
 // //////////////////////////////////////////////////////////////
 
 function removeLine(singleline,line,lineLibrary){
-  line.forEach(l => {if (l === singleline){l.remove()}})
+  line.forEach(l => {if (l === singleline){
+    try {
+      l.remove()
+  } catch (e) {
+      return;
+  } }})
   lineLibrary.filter(lineObject => lineObject.line != singleline)
 }
 
@@ -1179,15 +1186,17 @@ function logInquire(lineLibrary){
         const inquirematrix =  data[5]
         const usersystem = data[6]
 
+
+        logSimple(flow,matrix,matrixInput,matrixOutput,line,lineLibrary)
+        logComplex(complexflow,complexmatrix,matrixGroup,matrixMiddle,line,lineLibrary)
+        logInspiration(inquireflow,inquirematrix,matrixInquire,line,lineLibrary)
         newsystem.forEach(keytext => {
           logClassification(keytext,usersystem)
         })
         console.log("Here is the new data")
         console.log([matrixInput,matrixOutput,line,lineLibrary])
-        logSimple(flow,matrix,matrixInput,matrixOutput,line,lineLibrary)
-        logComplex(complexflow,complexmatrix,matrixGroup,matrixMiddle,line,lineLibrary)
-        logInspiration(inquireflow,inquirematrix,matrixInquire,line,lineLibrary)
         enableDropdownItems(line,lineLibrary,newelement)
+
         // showsimpleflow(lineLibrary)
         // showinspirationflow(lineLibrary)
         // showcomplexflow(lineLibrary)

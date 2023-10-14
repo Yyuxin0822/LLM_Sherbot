@@ -299,13 +299,59 @@ def addtosimple(inquireflow):
     json_object = json.dumps(loglist_sf, indent=4)  
     with open(simpleflowpath, "w") as outfile:
         outfile.write(json_object)
+
     
+    # get color of the flow
+    toaddcolor={}
+    colorpath1="static/simple/samplecolor.json"
+    colorpath2="static/complex/samplecolor.json"
+    with open(colorpath1, 'r') as f:
+        logjson_color1=json.load(f)
+        logdict_color1=dict(logjson_color1)
+    
+    with open(colorpath2, 'r') as f:
+        logjson_color2=json.load(f)
+        logdict_color2=dict(logjson_color2)
+
+    loglist_color={**logdict_color1,**logdict_color2}
+
+    for flow in toaddflow:
+        for ele in flow:
+            if ele in loglist_color.keys():
+                toaddcolor[ele]=loglist_color[ele]
+            else:
+                toaddcolor[ele]="lightgrey"
+
     #update simplematrix
     simplematrixpath="static/simple/simplematrix.json"
-    with open(simplematrixpath, 'r') as f:
-        logjson_sm=json.load(f)
-        loglist_sm=dict(logjson_sm)
-        # for flow in toaddflow:
+    def returnmax_xy(simplematrixpath):
+        with open(simplematrixpath, 'r') as f:
+            logjson_sm=json.load(f)
+            loglist_sm=dict(logjson_sm)
+            max_x=0
+            max_y=0
+            for key in loglist_sm.keys():
+                if loglist_sm[key][1]==0:
+                    if loglist_sm[key][2]>max_x:
+                        max_x=loglist_sm[key][2]
+                if loglist_sm[key][1]==1:
+                    if loglist_sm[key][2]>max_y:
+                        max_y=loglist_sm[key][2]
+            return [loglist_sm,max_x,max_y]
+        # add new flow to simplematrix
+
+    for flow in toaddflow:
+        loglist_sm,max_x,max_y=returnmax_xy(simplematrixpath)
+        ele0=flow[0]
+        ele1=flow[-1]
+        if ele0 not in loglist_sm.keys():
+            loglist_sm[ele0]=[toaddcolor[ele0],0,max_x+1]
+        if ele1 not in loglist_sm.keys():
+            loglist_sm[ele1]=[toaddcolor[ele1],1,max_y+1]
+
+    json_object2 = json.dumps(loglist_sm, indent=4)  
+    with open(simpleflowpath, "w") as outfile:
+        outfile.write(json_object2)
 
     return loglist_sf,loglist_sm
 

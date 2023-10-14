@@ -1,352 +1,362 @@
 {
-    "FISH": [
-        "#39b54a",
-        0,
-        9
-    ],
     "SEAWEED": [
-        "#39b54a",
-        0,
-        10
-    ],
-    "BIOLUMINESCENT ORGANISMS": [
-        "#39b54a",
-        0,
-        11
-    ],
-    "BUBBLE DOME MATERIALS": [
-        "lightgrey",
-        0,
-        25
-    ],
-    "SUBMERSIBLE VEHICLE FUEL": [
-        "#ffc60b",
-        0,
-        4
-    ],
-    "DEEP SEA MINERALS": [
-        "lightgrey",
-        0,
-        26
-    ],
-    "WATER PRESSURE ENERGY": [
-        "#ffc60b",
-        0,
-        5
-    ],
-    "SALT WATER": [
-        "#00aeef",
-        0,
-        1
-    ],
-    "AQUACULTURAL WASTE": [
-        "#39b54a",
-        0,
-        12
-    ],
-    "CORALS": [
-        "#39b54a",
-        0,
-        13
-    ],
-    "PLANKTON": [
-        "#39b54a",
-        0,
-        14
-    ],
-    "THERMAL ENERGY": [
-        "#ffc60b",
-        0,
-        6
-    ],
-    "UNDERWATER SOIL": [
-        "lightgrey",
-        0,
-        27
-    ],
-    "SEA SPONGES": [
-        "#39b54a",
-        0,
-        15
-    ],
-    "SHELLFISH": [
-        "#39b54a",
-        0,
-        16
-    ],
-    "ALGAE": [
-        "#39b54a",
-        0,
-        17
-    ],
-    "AQUATIC PLANTS": [
         "#39b54a",
         0,
         18
     ],
-    "OCEAN CURRENT ENERGY": [
-        "#ffc60b",
-        0,
-        7
-    ],
-    "ARTIFICIAL INTELLIGENCE": [
-        "lightgrey",
-        0,
-        28
-    ],
-    "MARINE BACTERIA": [
+    "FISH": [
         "#39b54a",
         0,
         19
     ],
-    "HYDROPONICS SUPPLIES": [
-        "lightgrey",
-        0,
-        29
-    ],
-    "UNDERSEA CABLE MATERIALS": [
-        "lightgrey",
-        0,
-        30
-    ],
-    "GLASS MATERIALS": [
-        "lightgrey",
-        0,
-        31
-    ],
-    "TIDAL ENERGY": [
-        "#ffc60b",
-        0,
-        8
-    ],
-    "MARINE LIFE GENETIC RESOURCES": [
-        "#39b54a",
-        0,
-        20
-    ],
-    "OCEANOGRAPHIC DATA": [
-        "lightgrey",
-        0,
-        32
-    ],
-    "SEA SALTS": [
-        "#00aeef",
-        0,
-        2
-    ],
-    "FLOATING ALGAE": [
-        "#39b54a",
-        0,
-        21
-    ],
-    "UNDERSEA ROCKS": [
-        "lightgrey",
-        0,
-        33
-    ],
-    "MARINE ALGAE": [
-        "#39b54a",
-        0,
-        22
-    ],
-    "UNDERWATER VOLCANIC MATERIALS": [
+    "SUBMERSIBLE VEHICLES": [
         "lightgrey",
         0,
         34
     ],
-    "MARINE MICROORGANISM": [
+    "BIOLUMINESCENT CREATURES": [
         "#39b54a",
         0,
-        23
+        20
     ],
-    "MARINE GENETIC RESOURCES": [
-        "#39b54a",
-        0,
-        24
-    ],
-    "TRACE ELEMENTS IN SEAWATER": [
-        "#00aeef",
-        0,
-        3
-    ],
-    "DEEP-SEA SEDIMENTS": [
+    "BUBBLE DOME MATERIALS": [
         "lightgrey",
         0,
         35
     ],
-    "DEEP-SEA GAS HYDRATES": [
+    "SUNLIGHT": [
+        "#ffc60b",
+        0,
+        11
+    ],
+    "OXYGEN": [
+        "#00aeef",
+        0,
+        1
+    ],
+    "MARINE ANIMALS": [
+        "#39b54a",
+        0,
+        21
+    ],
+    "SEA PLANTS": [
+        "#39b54a",
+        0,
+        22
+    ],
+    "SEAWATER": [
+        "#00aeef",
+        0,
+        2
+    ],
+    "AQUATIC MICROBES": [
+        "#39b54a",
+        0,
+        23
+    ],
+    "AQUATIC ENERGY": [
+        "#ffc60b",
+        0,
+        12
+    ],
+    "GEOTHERMAL VENTS": [
+        "#ffc60b",
+        0,
+        13
+    ],
+    "AQUATIC MINERALS": [
+        "#00aeef",
+        0,
+        3
+    ],
+    "CORAL REEFS": [
+        "#39b54a",
+        0,
+        24
+    ],
+    "UNDERWATER SOIL": [
+        "#00aeef",
+        0,
+        4
+    ],
+    "PLANKTON": [
+        "#39b54a",
+        0,
+        25
+    ],
+    "METAL ALLOYS": [
         "lightgrey",
         0,
         36
     ],
-    "FISH OIL": [
-        "lightgrey",
-        1,
-        14
-    ],
-    "NATURAL FOOD COLORING": [
-        "lightgrey",
-        1,
-        15
-    ],
-    "BIO-SCIENTIFIC RESEARCH": [
-        "lightgrey",
-        1,
-        16
-    ],
-    "EXTRUDED BUILDING MATERIALS": [
-        "lightgrey",
-        1,
-        17
-    ],
-    "POWER GENERATION": [
-        "#ffc60b",
-        1,
-        4
-    ],
-    "REMOTE ENERGY STORAGE": [
-        "#ffc60b",
-        1,
+    "SALT": [
+        "#00aeef",
+        0,
         5
     ],
-    "DESALINATED WATER": [
-        "#00aeef",
-        1,
-        1
-    ],
-    "SALTS": [
-        "lightgrey",
-        1,
-        18
-    ],
-    "FERTILIZER": [
-        "lightgrey",
-        1,
-        19
-    ],
-    "ECOSYSTEM SERVICES": [
+    "MARINE BACTERIA": [
         "#39b54a",
-        1,
-        11
-    ],
-    "BIO-OXYGEN GENERATION": [
-        "#ffc60b",
-        1,
-        6
-    ],
-    "NUTRIENT EXTRACTION": [
-        "lightgrey",
-        1,
-        20
-    ],
-    "BIO-MEDICAL RESEARCH": [
-        "lightgrey",
-        1,
-        21
-    ],
-    "CALCIUM COMPOUND": [
-        "lightgrey",
-        1,
-        22
-    ],
-    "WASTEWATER TREATMENT": [
-        "#00aeef",
-        1,
-        2
-    ],
-    "MECHANICAL POWER": [
-        "#ffc60b",
-        1,
-        7
-    ],
-    "PREDICTIVE MAINTENANCE": [
-        "lightgrey",
-        1,
-        23
-    ],
-    "BIO-PHARMACEUTICALS": [
-        "lightgrey",
-        1,
-        24
-    ],
-    "HYDROPONIC FOOD PRODUCTION": [
-        "lightgrey",
-        1,
-        25
-    ],
-    "ELECTRICAL CONDUCTORS": [
-        "lightgrey",
-        1,
+        0,
         26
     ],
-    "BUILDING MATERIAL": [
-        "lightgrey",
-        1,
+    "OCEAN CURRENTS": [
+        "#00aeef",
+        0,
+        6
+    ],
+    "WAVE ENERGY": [
+        "#ffc60b",
+        0,
+        14
+    ],
+    "UNDERWATER WIND": [
+        "#ffc60b",
+        0,
+        15
+    ],
+    "HYDROTHERMAL ENERGY": [
+        "#ffc60b",
+        0,
+        16
+    ],
+    "SHELLFISH": [
+        "#39b54a",
+        0,
         27
     ],
-    "ELECTRICITY": [
+    "SPONGE": [
+        "#39b54a",
+        0,
+        28
+    ],
+    "PEARLS": [
+        "lightgrey",
+        0,
+        37
+    ],
+    "SEA CUCUMBER": [
+        "#39b54a",
+        0,
+        29
+    ],
+    "MARINE FUNGI": [
+        "#39b54a",
+        0,
+        30
+    ],
+    "TIDAL ENERGY": [
+        "#ffc60b",
+        0,
+        17
+    ],
+    "RECYCLABLE WASTE": [
+        "lightgrey",
+        0,
+        38
+    ],
+    "LOBSTERS": [
+        "#39b54a",
+        0,
+        31
+    ],
+    "BIOLUMINESCENT ALGAE": [
+        "#39b54a",
+        0,
+        32
+    ],
+    "KELP": [
+        "#39b54a",
+        0,
+        33
+    ],
+    "UNDERWATER CAVES": [
+        "#00aeef",
+        0,
+        7
+    ],
+    "IODINE": [
+        "#00aeef",
+        0,
+        8
+    ],
+    "DEEP SEA MINING RESOURCES": [
+        "#00aeef",
+        0,
+        9
+    ],
+    "MANGANESE NODULES": [
+        "#00aeef",
+        0,
+        10
+    ],
+    "BIOFUEL": [
         "#ffc60b",
         1,
         8
     ],
-    "GENOME RESEARCH": [
-        "lightgrey",
-        1,
-        28
-    ],
-    "FISHERIES MANAGEMENT": [
+    "NUTRIENT RECYCLING": [
         "#39b54a",
         1,
-        12
+        16
     ],
-    "FOOD SEASONING": [
-        "lightgrey",
+    "DEEP SEA MINING": [
+        "#00aeef",
         1,
-        29
+        1
     ],
-    "SITE ANCHORING": [
-        "lightgrey",
-        1,
-        30
-    ],
-    "COSMETICS": [
-        "lightgrey",
-        1,
-        31
-    ],
-    "GEOTHERMAL ENERGY": [
+    "LIGHT PRODUCTION": [
         "#ffc60b",
         1,
         9
     ],
-    "WASTE TREATMENT": [
-        "#00aeef",
+    "RESEARCH FACILITIES": [
+        "lightgrey",
         1,
-        3
+        24
     ],
-    "BIODIVERSITY CONSERVATION": [
+    "PHOTOSYNTHESIS": [
         "#39b54a",
         1,
-        13
+        17
     ],
-    "INDUSTRIAL PROCESSES": [
-        "lightgrey",
-        1,
-        32
-    ],
-    "METALS": [
-        "lightgrey",
-        1,
-        33
-    ],
-    "ENERGY STORAGE": [
+    "FUEL SOURCE": [
         "#ffc60b",
         1,
         10
     ],
+    "BIODIVERSITY": [
+        "#39b54a",
+        1,
+        18
+    ],
+    "HABITAT": [
+        "#39b54a",
+        1,
+        19
+    ],
+    "MINERAL EXTRACTION": [
+        "#00aeef",
+        1,
+        2
+    ],
+    "OCEAN THERMAL ENERGY CONVERSION": [
+        "#ffc60b",
+        1,
+        11
+    ],
+    "EXTREMOPHILE STUDIES": [
+        "#39b54a",
+        1,
+        20
+    ],
+    "INDUSTRIAL MATERIALS": [
+        "lightgrey",
+        1,
+        25
+    ],
+    "TOURISM": [
+        "lightgrey",
+        1,
+        26
+    ],
+    "SEABED FARMING": [
+        "#00aeef",
+        1,
+        3
+    ],
+    "FISH FOOD": [
+        "#39b54a",
+        1,
+        21
+    ],
+    "CONSTRUCTION MATERIALS": [
+        "lightgrey",
+        1,
+        27
+    ],
+    "CHEMICAL INDUSTRY": [
+        "lightgrey",
+        1,
+        28
+    ],
+    "MEDICAL RESEARCH": [
+        "lightgrey",
+        1,
+        29
+    ],
+    "CLIMATE STUDY": [
+        "lightgrey",
+        1,
+        30
+    ],
+    "DESALINATION": [
+        "#00aeef",
+        1,
+        4
+    ],
+    "ELECTRICITY GENERATION": [
+        "#ffc60b",
+        1,
+        12
+    ],
+    "DISTILLATION": [
+        "#00aeef",
+        1,
+        5
+    ],
+    "WATER FILTRATION": [
+        "#00aeef",
+        1,
+        6
+    ],
+    "LUXURY GOODS": [
+        "lightgrey",
+        1,
+        31
+    ],
+    "BIOREMEDIATION": [
+        "#39b54a",
+        1,
+        22
+    ],
+    "GRID STABILITY": [
+        "#ffc60b",
+        1,
+        13
+    ],
+    "RAW MATERIALS": [
+        "lightgrey",
+        1,
+        32
+    ],
+    "AQUACULTURE": [
+        "#39b54a",
+        1,
+        23
+    ],
+    "ENERGY PRODUCTION": [
+        "#ffc60b",
+        1,
+        14
+    ],
+    "MARINE ARCHAEOLOGY": [
+        "lightgrey",
+        1,
+        33
+    ],
+    "RARE EARTH ELEMENTS": [
+        "#00aeef",
+        1,
+        7
+    ],
+    "BATTERY TECHNOLOGY": [
+        "#ffc60b",
+        1,
+        15
+    ],
     "TOTAL": [
         "white",
         2,
-        36
+        38
     ]
 }

@@ -1,1 +1,1575 @@
-[]
+[
+    {
+        "HYDROGEN": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "WATER": [
+            "#00aeef",
+            1,
+            0
+        ],
+        "ENERGY": [
+            "#ffc60b",
+            2,
+            2
+        ],
+        "FUEL CELL": [
+            "#ffc60b",
+            1,
+            1
+        ],
+        "ELECTRICITY": [
+            "#ffc60b",
+            2,
+            1
+        ],
+        "COMBUSTION REACTIONS": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "FUELS": [
+            "#ffc60b",
+            1,
+            2
+        ],
+        "COAL": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "GASIFICATION PROCESS": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "SYNTHETIC FUELS": [
+            "#ffc60b",
+            2,
+            3
+        ],
+        "METHANE": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "METHANOL": [
+            "#ffc60b",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            3,
+            5
+        ]
+    },
+    {
+        "FUEL CELLS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "POWER": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "ROCKET PROPELLANTS": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "OXIDATION PROCESS": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "COMBUSTION ENGINES": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "BURN FUEL": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "FUEL CELL": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "HYDROGEN": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "ELECTRICITY": [
+            "#ffc60b",
+            2,
+            0
+        ],
+        "WATER": [
+            "#00aeef",
+            3,
+            0
+        ],
+        "HYDROCARBON COMBUSTION": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "OXY-FUEL COMBUSTION PROCESS": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "METAL-AIR FUEL CELLS": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            4,
+            4
+        ]
+    },
+    {
+        "PHOTOSYNTHESIS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "LIGHT AND NUTRIENTS": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "SEAWEED BLOOM": [
+            "#39b54a",
+            1,
+            1
+        ],
+        "SEA FARMS": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "INDOOR CULTIVATION SYSTEMS": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "SEA MINING": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "DESALINATION": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "SOLAR STILLS": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "EVAPORATIVE MINING": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "ELECTRODIALYSIS": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "SEABED MINING TECHNOLOGIES": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "HYDROMETALLURGICAL PROCESSING": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "ADVANCED FILTRATION TECHNOLOGIES": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "MINERAL EXTRACTION METHODS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "MANUFACTURING PROCESSES": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "ELECTROLYSIS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "CHLORINE": [
+            "lightgrey",
+            1,
+            0
+        ],
+        "SODIUM HYDROXIDE": [
+            "lightgrey",
+            2,
+            0
+        ],
+        "SOLVAY PROCESS": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "SODIUM CARBONATE": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "AMMONIA-SODA PROCESS": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "SODA ASH": [
+            "lightgrey",
+            1,
+            2
+        ],
+        "MANNHEIM PROCESS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "HYDROCHLORIC ACID": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            3,
+            4
+        ]
+    },
+    {
+        "HARNESSING POWER": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "OBSERVATION VIA SATELLITES AND OTHER TECHNOLOGIES": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "COMPUTER SIMULATIONS": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "MONITORING": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "CAVE DIVING": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "PHOTOGRAMMETRY": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "SONAR MAPPING": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "UNDERWATER ROVS": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "LOW LIGHT AND OXYGEN LEVELS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "D IMAGING": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "REMOTELY OPERATED UNDERWATER VEHICLES": [
+            "lightgrey",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "HARNESSING/MINING": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "REFINING": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "CHEMICAL REACTIONS": [
+            "#ffc60b",
+            2,
+            0
+        ],
+        "EXTRACTION FROM SOLUTIONS": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "OXIDATION": [
+            "#ffc60b",
+            1,
+            1
+        ],
+        "SUBLIMATION": [
+            "#ffc60b",
+            2,
+            1
+        ],
+        "CONDENSATION": [
+            "#00aeef",
+            3,
+            1
+        ],
+        "DERIVED FROM SEAWEED": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "EXPLOITATION": [
+            "#ffc60b",
+            1,
+            2
+        ],
+        "COLLECTED FROM BRINE WELLS": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "PROCESSING": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "OBTAINED FROM NATURAL GAS FIELDS": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            4,
+            5
+        ]
+    },
+    {
+        "SOLVENT EXTRACTION": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "ION-EXCHANGE LEACHING": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "ELECTROCHEMICAL PROCESSING": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "FROTH FLOTATION": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "BIO-LEACHING PROCESS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "MANGANESE": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "PYROMETALLURGICAL METHODS": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "HYDROMETALLURGICAL PROCESSING": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "COMPOUNDS": [
+            "lightgrey",
+            1,
+            2
+        ],
+        "ACIDIC LEACHING": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "ELEMENTS": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "DEEP SEA MINING": [
+            "#00aeef",
+            0,
+            4
+        ],
+        "EXTRACTION": [
+            "#ffc60b",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "CHLOROPHYLL": [
+            "#39b54a",
+            0,
+            0
+        ],
+        "CARBON DIOXIDE": [
+            "#ffc60b",
+            1,
+            1
+        ],
+        "WATER": [
+            "#00aeef",
+            2,
+            1
+        ],
+        "GLUCOSE": [
+            "#ffc60b",
+            3,
+            1
+        ],
+        "OXYGEN": [
+            "#ffc60b",
+            4,
+            3
+        ],
+        "PLANTS": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "SPECIALIZED CELLS": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "GREEN PLANTS": [
+            "#39b54a",
+            1,
+            2
+        ],
+        "ENERGY": [
+            "#ffc60b",
+            2,
+            2
+        ],
+        "PHOTOSYNTHETIC ORGANISMS": [
+            "#39b54a",
+            0,
+            4
+        ],
+        "CHLOROPHYLL PIGMENTS": [
+            "#39b54a",
+            1,
+            4
+        ],
+        "FOOD": [
+            "#39b54a",
+            2,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            5,
+            5
+        ]
+    },
+    {
+        "OCEAN THERMAL ENERGY CONVERSION (OTEC)": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "CLOSED-CYCLE OTEC": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "WARM SURFACE SEAWATER": [
+            "#00aeef",
+            1,
+            2
+        ],
+        "WORKING FLUID": [
+            "lightgrey",
+            2,
+            1
+        ],
+        "TURBINE": [
+            "#ffc60b",
+            3,
+            2
+        ],
+        "GENERATOR": [
+            "#ffc60b",
+            4,
+            1
+        ],
+        "COLD SEAWATER": [
+            "#00aeef",
+            5,
+            2
+        ],
+        "OPEN-CYCLE OTEC": [
+            "#ffc60b",
+            2,
+            3
+        ],
+        "VACUUM CHAMBER": [
+            "lightgrey",
+            2,
+            2
+        ],
+        "HYBRID OTEC": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            6,
+            4
+        ]
+    },
+    {
+        "HEAT AND CHEMICALS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "EXTREMOPHILES": [
+            "#39b54a",
+            1,
+            3
+        ],
+        "UNIQUE EXTREME CONDITIONS": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "REMOTELY-OPERATED UNDERSEA VEHICLES": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "THERMAL DNA SEQUENCING TECHNOLOGY": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "UNDERWATER WIND TURBINES": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "GENERATOR": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "TURBINE": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "HYDROELECTRIC POWER TECHNOLOGIES": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "UNDERWATER WINDMILL": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "ELECTROMAGNETISM TECHNOLOGIES": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "HYDRODISTILLATION": [
+            "#00aeef",
+            0,
+            0
+        ],
+        "HEAT EXCHANGER": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "WATER HEATING": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "HYDROTHERMAL POWER PLANT": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "STEAM TURBINE": [
+            "#ffc60b",
+            1,
+            2
+        ],
+        "HYDROTHERMAL ELECTRICITY": [
+            "#ffc60b",
+            2,
+            2
+        ],
+        "DISTILLATION APPARATUS": [
+            "#00aeef",
+            3,
+            2
+        ],
+        "STEAM": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "COOLING": [
+            "#ffc60b",
+            2,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            4,
+            4
+        ]
+    },
+    {
+        "TURBINES": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "ELECTRICITY": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "TIDAL STREAM GENERATOR": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "TIDAL BARRAGE": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "UNDERWATER TURBINES": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "FERMENTATION": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "BIOETHANOL": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "HYDROTHERMAL LIQUEFACTION": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "BIO-CRUDE": [
+            "#ffc60b",
+            1,
+            1
+        ],
+        "OIL EXTRACTION": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "BIODIESEL": [
+            "#ffc60b",
+            1,
+            2
+        ],
+        "ANAEROBIC DIGESTION": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "BIOGAS": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "PYROLYSIS": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "BIO-OIL AND GAS": [
+            "#ffc60b",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "WAVE AND FLOW ENERGY DEVICES": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "LARGE-SCALE SEAWED AQUACULTURE": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "SEAWED FARM POSITIONING AND ARRANGEMENT": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "SPATIAL STRUCTURE OF FARM": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "CHEMICAL REACTION": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "OXIDISATION OF LUCIFERIN": [
+            "lightgrey",
+            1,
+            0
+        ],
+        "PROTEINS": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "AEQUORIN OR PHOTOPROTEIN": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "ENZYME": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "LUCIFERASE": [
+            "lightgrey",
+            1,
+            2
+        ],
+        "OXIDATION OF LUCIFERIN": [
+            "lightgrey",
+            2,
+            2
+        ],
+        "BACTERIAL SYMBIONTS OR PHOTOPHORES": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            3,
+            4
+        ]
+    },
+    {
+        "MARINE FOOD WEB": [
+            "#39b54a",
+            0,
+            0
+        ],
+        "MARINE PROTECTED AREAS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "SYMBIOTIC RELATIONSHIPS": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "SUSTAINABLE FISHING PRACTICES": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "ECOSYSTEM ENGINEERS": [
+            "#39b54a",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "PHOTOSYNTHESIS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "FOOD AND SHELTER": [
+            "#39b54a",
+            1,
+            0
+        ],
+        "UNDERWATER FORESTS CONSTRUCTION": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "PROVIDING COVER": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "PROVIDING ENVIRONMENTS": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "BIODIVERSITY": [
+            "#39b54a",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "ALGAE BIOFUEL PRODUCTION PROCESS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "MICROBIAL FUEL CELL TECHNOLOGY": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "FERMENTATION PROCESS": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "ANAEROBIC DIGESTION": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "MICROBIAL ELECTROLYSIS PROCESS": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "DIVING AND SNORKELING": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "PROTECTED MARINE PARKS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "PRESERVATION AND RESEARCH": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "GUIDED TOURS": [
+            "lightgrey",
+            1,
+            2
+        ],
+        "ECO-TOURISM": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "ECONOMIC DEVELOPMENT": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "UNDERWATER PHOTOGRAPHY AND FISH WATCHING": [
+            "#39b54a",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "PHOTOSYNTHESIS": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "ORGANIC MATTER": [
+            "#39b54a",
+            1,
+            0
+        ],
+        "AQUACULTURE FARMING": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "TROPHIC LEVEL": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "FOOD CHAIN": [
+            "#39b54a",
+            1,
+            2
+        ],
+        "MYCOPROTEIN FACILITY": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "BIOFILTRATION PROCESS": [
+            "#00aeef",
+            0,
+            0
+        ],
+        "FEEDING PROCESS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "CULTIVATION IN POLLUTED WATER AREAS": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "FEEDING AND FILTRATION PROCESS": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "EXTRACTION OF CHEMICALS": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "NATURAL PRODUCTS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "DISEASE TREATMENT": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "BIOLOGICAL AND ECOLOGICAL FEATURES": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "MEDICINAL COMPOUNDS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "DRUG DISCOVERY": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "GENOMIC RESEARCH": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "FILTRATION OF WATER": [
+            "#00aeef",
+            0,
+            0
+        ],
+        "PRESERVING CORAL REEFS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "BIOTURBATION PROCESS": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "FEEDING ACTIVITIES": [
+            "#39b54a",
+            0,
+            3
+        ],
+        "WATER QUALITY": [
+            "#00aeef",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "BIOACTIVE METABOLITES": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "EXTRACTS": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "DRUG DEVELOPMENT": [
+            "lightgrey",
+            1,
+            1
+        ],
+        "NOVEL COMPOUNDS": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "BIOACTIVE COMPOUNDS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "DISEASE TREATMENT STUDIES": [
+            "lightgrey",
+            1,
+            3
+        ],
+        "FERMENTATION": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "SECONDARY METABOLITES": [
+            "lightgrey",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "LOBSTER FARMING": [
+            "#00aeef",
+            0,
+            0
+        ],
+        "HATCHERY TECHNOLOGY": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "RECIRCULATING AQUACULTURE SYSTEM (RAS)": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "MARICULTURE": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "INTEGRATED MULTI-TROPHIC AQUACULTURE": [
+            "#00aeef",
+            0,
+            0
+        ],
+        "CONTROLLED ENVIRONMENT": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "NUTRIENTS": [
+            "#39b54a",
+            1,
+            1
+        ],
+        "SEAWEED FARMING": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "NATURAL FERTILISER": [
+            "#39b54a",
+            1,
+            2
+        ],
+        "CLOSED LOOP AQUACULTURE": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "BIOLOGICAL FUNCTION": [
+            "#39b54a",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "GROWTH": [
+            "#39b54a",
+            0,
+            0
+        ],
+        "LIGHT GENERATION": [
+            "#ffc60b",
+            1,
+            0
+        ],
+        "PHOTOSYNTHESIS": [
+            "#39b54a",
+            0,
+            1
+        ],
+        "GLUCOSE PRODUCTION": [
+            "#39b54a",
+            1,
+            1
+        ],
+        "BIOLUMINESCENT PROPERTIES": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "BIOLOGICAL LIGHT SOURCES": [
+            "#ffc60b",
+            1,
+            2
+        ],
+        "BIO-ENERGY": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "POWERING SMALL DEVICES": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "BIOMASS ENERGY": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "EXTRACTION": [
+            "lightgrey",
+            1,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    },
+    {
+        "CULTIVATION AND HARVESTING": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "SHELLFISH AND FINFISH FARMING": [
+            "#00aeef",
+            1,
+            0
+        ],
+        "ENHANCE WATER QUALITY": [
+            "#00aeef",
+            0,
+            1
+        ],
+        "INTEGRATED INTO MULTI-TROPHIC AQUACULTURE": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "DIVERSITY AND PRODUCTIVITY": [
+            "#39b54a",
+            1,
+            2
+        ],
+        "PRIMARY SOURCE OF FOOD": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "ABALONE FARMING": [
+            "#00aeef",
+            1,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            4
+        ]
+    },
+    {
+        "REMOTELY OPERATED VEHICLE (ROV) TECHNOLOGY": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "AUTOMATED UNDERWATER VEHICLES (AUVS)": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "HYDRAULIC SUCTION SYSTEMS": [
+            "#00aeef",
+            0,
+            2
+        ],
+        "CUTTER SUCTION SYSTEMS": [
+            "#00aeef",
+            0,
+            3
+        ],
+        "SPATIAL GRID TECHNOLOGIES": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "CONSTRUCTION TECHNOLOGIES": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "UNIQUE STRUCTURE": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "ECO-SUSTAINABLE PROCESSES": [
+            "#39b54a",
+            0,
+            2
+        ],
+        "ADAPTIVE REUSE STRATEGIES": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            4
+        ]
+    },
+    {
+        "EXTRUSION PROCESS": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "MOLDING PROCESS": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "MACHINING AND ASSEMBLY": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "CASTING PROCESS": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "FORGING": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "PEARL FARMING": [
+            "lightgrey",
+            0,
+            0
+        ],
+        "MANUAL HARVESTING": [
+            "lightgrey",
+            0,
+            1
+        ],
+        "JEWEL CRAFTING": [
+            "lightgrey",
+            0,
+            2
+        ],
+        "JEWELRY DESIGNING": [
+            "lightgrey",
+            0,
+            3
+        ],
+        "JEWELRY MANUFACTURING": [
+            "lightgrey",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            1,
+            5
+        ]
+    },
+    {
+        "MATERIAL RECOVERY FACILITY": [
+            "#ffc60b",
+            0,
+            0
+        ],
+        "AUTOMATED WASTE SEGREGATION": [
+            "#ffc60b",
+            0,
+            1
+        ],
+        "WASTE-TO-ENERGY PROCESSES": [
+            "#ffc60b",
+            0,
+            2
+        ],
+        "COMPOSTING": [
+            "#ffc60b",
+            0,
+            3
+        ],
+        "ANAEROBIC DIGESTION": [
+            "#ffc60b",
+            1,
+            3
+        ],
+        "WASTE-TO-MATERIAL PROCESS": [
+            "#ffc60b",
+            0,
+            4
+        ],
+        "TOTAL": [
+            "white",
+            2,
+            5
+        ]
+    }
+]
