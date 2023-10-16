@@ -8,7 +8,7 @@ import langchain
 from langchain.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from config import OPENAI_API_KEY
-
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 ######################################################
 ######################################################
@@ -97,31 +97,44 @@ from langchain.cache import InMemoryCache
 langchain.llm_cache = InMemoryCache()
 
 ### Get input from environment description
-input_llm = ChatOpenAI(model="gpt-4",temperature=1)
 
 def getinput(envir_description):
-    input_template = """
-    You are a environmental engineering specialist, you will extract and imagine potential resources in the environment description as keywords. The resources in the environment include potential organisms, chemicals, materials; and they come from various systems, such as hydro, energy, and ecosystem. Please try to imagine as many as possonible, and provide me around 40 in total.
-
-    Environment description: "This scene depicts an agricultural village in the mountains. There are a couple flood valleys with turbulent water.  To empower this village, there are some windfarms nearby. Cheetahs in the mountains need to be preserved. Food and potable water can be very valuable here."
-    Input resources: cheetah, fresh water, wind, biomass, groundwater, wild herbs, flora, potable water, irrigation water, mountain soil, spring water, timber, medicine plants, granite, geothermal energy
-    Environment description:"{envir_description}"
-    Input resources: 
-    """
-
-    input_prompt_template = PromptTemplate(
-        input_variables=["envir_description"],
-        template=input_template,
+    response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {
+        "role": "system",
+        "content": "You are a environmental engineering specialist, you will extract and imagine potential resources in the environment description as keywords. The resources in the environment include potential organisms, chemicals, materials; and they come from various systems, such as hydro, energy, and ecosystem. Please try to imagine as many as possible, and provide me around 40 in total.\n\n"
+        },
+        {
+        "role": "user",
+        "content": "This scene depicts an agricultural village in the mountains. There are a couple flood valleys with turbulent water.  To empower this village, there are some windfarms nearby. Cheetahs in the mountains need to be preserved. Food and potable water can be very valuable here."
+        },
+        {
+        "role": "assistant",
+        "content": "cheetah, fresh water, wind, biomass, groundwater, wild herbs, flora, potable water, irrigation water, mountain soil, spring water, timber, medicine plants, granite, geothermal energy"
+        },
+        {
+        "role": "user",
+        "content": "This area displays a lush mangrove forest, where roots dive deep into the brackish waters. Brightly colored crabs scuttle about, and the chirping of unseen insects is constant. Fishermen navigate through channels, casting nets in a dance as old as time."
+        },
+        {
+        "role": "assistant",
+        "content": "mangrove trees, brackish water, crabs, insects, fish, fishermen, channels, nets, marine life, biodiversity, oysters, algae, tidal energy, medicinal plants, shrimp, seagrass, salt, wood, mud, plankton, microorganisms, bird nests, pelicans, shellfish, coral reefs, sand, silt, phosphates, estuary, larva, turtles, seahorses, moss, roots, fruits"
+        },
+        {
+        "role": "user",
+        "content": envir_description,
+        },
+    ],
+    temperature=1,
+    max_tokens=256,
+    top_p=1,
+    frequency_penalty=0,
+    presence_penalty=0
     )
 
-    input_chain = LLMChain(
-        llm=input_llm,
-        prompt=input_prompt_template,
-        output_key="input_resources",
-        verbose=False,
-    )  
-
-    input_resources = input_chain.run({"envir_description": envir_description}).split(",")
+    input_resources = response['choices'][0]['message']['content'].split(",")
     clean_input=[clean(i) for i in input_resources]
     #get unique input
     unique_input=[]
@@ -722,3 +735,39 @@ if __name__=="__main__":
 #     )  
 #     output_resources = output_chain.run({"input_resources": input_resources})
 #     return output_resources
+
+
+
+
+# input_llm = ChatOpenAI(model="gpt-4",temperature=1)
+
+# def getinput(envir_description):
+#     input_template = """
+#     You are a environmental engineering specialist, you will extract and imagine potential resources in the environment description as keywords. The resources in the environment include potential organisms, chemicals, materials; and they come from various systems, such as hydro, energy, and ecosystem. Please try to imagine as many as possonible, and provide me around 40 in total.
+
+#     Environment description: "This scene depicts an agricultural village in the mountains. There are a couple flood valleys with turbulent water.  To empower this village, there are some windfarms nearby. Cheetahs in the mountains need to be preserved. Food and potable water can be very valuable here."
+#     Input resources: cheetah, fresh water, wind, biomass, groundwater, wild herbs, flora, potable water, irrigation water, mountain soil, spring water, timber, medicine plants, granite, geothermal energy
+#     Environment description:"{envir_description}"
+#     Input resources: 
+#     """
+
+#     input_prompt_template = PromptTemplate(
+#         input_variables=["envir_description"],
+#         template=input_template,
+#     )
+
+#     input_chain = LLMChain(
+#         llm=input_llm,
+#         prompt=input_prompt_template,
+#         output_key="input_resources",
+#         verbose=False,
+#     )  
+
+#     input_resources = input_chain.run({"envir_description": envir_description}).split(",")
+#     clean_input=[clean(i) for i in input_resources]
+#     #get unique input
+#     unique_input=[]
+#     for i in clean_input:
+#         if i not in unique_input:
+#             unique_input.append(i)
+#     return unique_input

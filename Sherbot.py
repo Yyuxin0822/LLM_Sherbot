@@ -4,6 +4,7 @@ from Sherbot_inspireflow import inspireflowtojson
 import os
 import openai
 from config import OPENAI_API_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def getcanvas_main(env):
     canvas=getcanvas(env)

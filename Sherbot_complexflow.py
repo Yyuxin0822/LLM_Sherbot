@@ -9,6 +9,7 @@ from langchain.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from Sherbot_simpleflow import getelement, color, classify, convertsystem, returnsystem
 from config import OPENAI_API_KEY
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 ######################################################
 ######################################################

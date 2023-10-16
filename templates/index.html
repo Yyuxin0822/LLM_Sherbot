@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,20 @@
   <meta author="Yuxin Yang">
   <title>Sherbot</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"  />
-  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" async></script>
-  <script src="{{ url_for('static', filename='node_modules/plain-draggable/plain-draggable.min.js') }}" async></script>
+  <script src="{{ url_for('static', filename='node_modules/leader-line/leader-line.min.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='node_modules/plain-draggable/plain-draggable.min.js') }}" defer></script>
 
 </head>
 
 
 <body>
+
   <div id="request">
     <form method="POST">
       <div class="tab" id="tabForm">
         {{ temp_form.hidden_tag() }}
         <div>{{ temp_form.env_description(class='form')}}</div>
-        <div>{{ temp_form.submit(class='btn')}}</div>
+        <div>{{ temp_form.submit(class='button')}}</div>
       </div>
     </form>
   </div>
@@ -32,6 +33,7 @@
 
 
   {% block javascript %}
+  <div class="loader"></div>
   <script>
     const flow_url ="{{url_for('static', filename='simple/simpleflow.json')}}";
     const matrix_url ="{{ url_for('static', filename='simple/simplematrix.json') }}";
@@ -100,4 +102,34 @@
 
 
 </body>
+
+<script>
+  window.addEventListener("DOMContentLoaded", ()=>{
+  console.log("Window loaded");  
+  const loader = document.querySelector(".loader");
+
+  loader?.classList.add("loader-hidden");
+
+  loader?.addEventListener("transitionend", ()=>{
+    loader?.parentElement?.removeChild(loader);
+  })
+})
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
 

@@ -1,3 +1,4 @@
+
 const tagX = 256;
 const tagY = 30;
 const coefficient = 1;
