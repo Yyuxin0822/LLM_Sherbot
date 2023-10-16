@@ -108,7 +108,7 @@ body{
   vertical-align: middle;
 }
 
-#tabForm>.button, #tabFuncMenu>.button{  
+#tabFunction>.button, #tabFuncMenu>.button{  
   background-color: white;
   /* background-color: aliceblue; */
   border: none;
@@ -202,7 +202,7 @@ button .tag  {
 
 
 
-#tabForm>.button, #tabEnv>.button{    
+.btn, #tabEnv>.button{    
   /* font-family:  Helvetica, Arial, sans-serif; */
   background-color: rgba(240,240,240,.8);
   position:absolute;

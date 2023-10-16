@@ -10,7 +10,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from Sherbot_simpleflow import returnsystem,color,classify
 from Sherbot_complexflow import convertflow,checknestedlist,logtoJson
 from config import OPENAI_API_KEY
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
 
 
 ######################################################
